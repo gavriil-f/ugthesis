@@ -1,0 +1,622 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "off",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 100,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": true,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "folder"
+  },
+  "appIcons": {},
+  "tabIcons": {
+    "bookmarks": {
+      "icon": "lucide-bookmark",
+      "color": "cyan"
+    },
+    "contextual-sidecar": {
+      "icon": "sidebar-right"
+    },
+    "file-explorer": {
+      "icon": "lucide-folder-closed",
+      "color": "cyan"
+    },
+    "graph": {
+      "color": "cyan"
+    },
+    "image": {
+      "icon": "lucide-image"
+    },
+    "kanban": {
+      "icon": "lucide-kanban-square"
+    },
+    "recent-files": {
+      "icon": "lucide-clock",
+      "color": "cyan"
+    },
+    "search": {
+      "icon": "lucide-search",
+      "color": "cyan"
+    },
+    "webviewer-history": {
+      "icon": "lucide-globe",
+      "color": "cyan"
+    }
+  },
+  "fileIcons": {
+    "Attachments": {
+      "icon": "lucide-paperclip",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Clippings": {
+      "icon": "lucide-newspaper",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Daily": {
+      "icon": "lucide-calendar-fold",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Decks": {
+      "icon": "lucide-gallery-vertical-end",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Decks/French": {
+      "icon": "lucide-book-a",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Drafts": {
+      "icon": "lucide-sticker",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal": {
+      "icon": "lucide-cog",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Configs": {
+      "icon": "lucide-folder-cog",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Profiles": {
+      "icon": "lucide-file-terminal",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Prompts": {
+      "icon": "lucide-bot-message-square",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Resources": {
+      "icon": "lucide-files",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Templates": {
+      "icon": "templater-icon",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Transcripts": {
+      "icon": "lucide-scroll-text",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Internal/Web Clipper": {
+      "icon": "lucide-braces",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Library": {
+      "icon": "lucide-folder-symlink",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Meta": {
+      "icon": "lucide-badge-help",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Projects": {
+      "icon": "lucide-package",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "icloud/Vault",
+        "1f05e752a749fddd",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Projects/2025-03 UG thesis data/wayback-machine/gagauznews/116966-shok-v-gagauzii-politsiya-otobrala-edu-u-detej-20240630.md": {
+      "icon": "lucide-bookmark",
+      "color": "red"
+    },
+    "Projects/Cancelled": {
+      "icon": "lucide-book-x",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "icloud/Vault",
+        "1f05e752a749fddd",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Projects/Completed": {
+      "icon": "lucide-book-check",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "icloud/Vault",
+        "1f05e752a749fddd",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Projects/Someday": {
+      "icon": "lucide-archive",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "icloud/Vault",
+        "1f05e752a749fddd",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "References": {
+      "icon": "lucide-landmark",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "Snippets": {
+      "icon": "lucide-terminal-square",
+      "unsynced": [
+        "ac1061fd66e26089",
+        "1f05e752a749fddd",
+        "icloud/Vault",
+        "83352bb7ea3ad46b",
+        "0737349c42abeb80",
+        "57846d201a69a103"
+      ]
+    },
+    "data": {
+      "icon": "lucide-database",
+      "unsynced": [
+        "57846d201a69a103"
+      ]
+    },
+    "notebook": {
+      "icon": "lucide-notebook",
+      "unsynced": [
+        "57846d201a69a103"
+      ]
+    },
+    "scripts": {
+      "icon": "lucide-code-2",
+      "unsynced": [
+        "57846d201a69a103"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "URL": {
+      "icon": "lucide-link-2"
+    },
+    "abstract": {
+      "icon": "lucide-letter-text"
+    },
+    "accessed": {
+      "icon": "lucide-calendar-check"
+    },
+    "actors": {
+      "icon": "lucide-users"
+    },
+    "archive": {
+      "icon": "lucide-archive"
+    },
+    "attachment": {
+      "icon": "lucide-paperclip"
+    },
+    "author": {
+      "icon": "lucide-user-2"
+    },
+    "awards": {
+      "icon": "lucide-trophy"
+    },
+    "caption": {
+      "icon": "lucide-subtitles"
+    },
+    "category": {
+      "icon": "lucide-tag"
+    },
+    "citation": {
+      "icon": "lucide-external-link"
+    },
+    "citekey": {
+      "icon": "lucide-scan-barcode"
+    },
+    "coat of arms": {
+      "icon": "lucide-stamp"
+    },
+    "country": {
+      "icon": "lucide-land-plot"
+    },
+    "cover": {
+      "icon": "lucide-image"
+    },
+    "cssclasses": {
+      "icon": "art-brush"
+    },
+    "developer": {
+      "icon": "lucide-user-cog"
+    },
+    "director": {
+      "icon": "lucide-user-cog"
+    },
+    "docs": {
+      "icon": "lucide-badge-help"
+    },
+    "duration": {
+      "icon": "lucide-hourglass"
+    },
+    "editor": {
+      "icon": "lucide-user-search"
+    },
+    "end": {
+      "icon": "lucide-clock-8"
+    },
+    "flag": {
+      "icon": "lucide-flag"
+    },
+    "founded": {
+      "icon": "lucide-calendar-plus"
+    },
+    "genre": {
+      "icon": "lucide-sparkles"
+    },
+    "icon": {
+      "icon": "lucide-apple"
+    },
+    "identifier": {
+      "icon": "lucide-scan-barcode"
+    },
+    "isbn": {
+      "icon": "lucide-binary"
+    },
+    "keywords": {
+      "icon": "lucide-whole-word"
+    },
+    "kind": {
+      "icon": "question-mark-glyph"
+    },
+    "language": {
+      "icon": "lucide-globe-2"
+    },
+    "location": {
+      "icon": "lucide-map-pin"
+    },
+    "logo": {
+      "icon": "lucide-drafting-compass"
+    },
+    "long name": {
+      "icon": "lucide-wrap-text"
+    },
+    "modified": {
+      "icon": "lucide-calendar-clock"
+    },
+    "nationality": {
+      "icon": "lucide-flag"
+    },
+    "papers": {
+      "icon": "lucide-graduation-cap"
+    },
+    "people": {
+      "icon": "lucide-users"
+    },
+    "presenter": {
+      "icon": "lucide-user"
+    },
+    "published": {
+      "icon": "lucide-calendar-plus"
+    },
+    "publisher": {
+      "icon": "lucide-user-plus"
+    },
+    "related": {
+      "icon": "lucide-git-fork"
+    },
+    "release": {
+      "icon": "lucide-calendar-plus"
+    },
+    "repository": {
+      "icon": "lucide-github"
+    },
+    "reviewed author": {
+      "icon": "lucide-user-search"
+    },
+    "seats": {
+      "icon": "lucide-chart-pie"
+    },
+    "ticker": {
+      "icon": "lucide-chart-candlestick"
+    },
+    "title": {
+      "icon": "lucide-heading-1"
+    },
+    "topics": {
+      "icon": "lucide-asterisk-square"
+    },
+    "url": {
+      "icon": "lucide-link-2"
+    },
+    "uuid": {
+      "icon": "lucide-barcode"
+    },
+    "voting system": {
+      "icon": "lucide-vote"
+    },
+    "writer": {
+      "icon": "lucide-user-pen"
+    },
+    "writing system": {
+      "icon": "write_existing"
+    },
+    "year": {
+      "icon": "lucide-calendar-range"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [
+    {
+      "id": "aGY0l",
+      "name": "Kanban boards",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kanban-plugin",
+          "operator": "is",
+          "value": "board"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-kanban-square"
+    },
+    {
+      "id": "COS28",
+      "name": "Meetings",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:category",
+          "operator": "includes",
+          "value": "[[Meetings]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-clipboard-pen"
+    },
+    {
+      "id": "nTn5y",
+      "name": "Drafts",
+      "match": "any",
+      "conditions": [
+        {
+          "source": "property:category",
+          "operator": "includes",
+          "value": "[[Drafts]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-pencil"
+    },
+    {
+      "id": "J93hL",
+      "name": "Artworks",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Artworks]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-brush"
+    },
+    {
+      "id": "ayEsA",
+      "name": "Books",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Books]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-book"
+    },
+    {
+      "id": "mUqOh",
+      "name": "Web pages",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Web pages]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-globe"
+    },
+    {
+      "id": "6vy79",
+      "name": "Newspaper articles",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Newspaper articles]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-newspaper"
+    },
+    {
+      "id": "C3N12",
+      "name": "Reports",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Reports]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-notebook-tabs"
+    },
+    {
+      "id": "hMTQ0",
+      "name": "Repositories",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "property:kind",
+          "operator": "includes",
+          "value": "[[Repositories]]"
+        }
+      ],
+      "enabled": true,
+      "icon": "lucide-folder-git-2"
+    }
+  ],
+  "folderRules": []
+}

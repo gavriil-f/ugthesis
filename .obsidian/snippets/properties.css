@@ -1,0 +1,19 @@
+/* .metadata-container:not(.is-active) 
+.metadata-property[data-property-key="uuid"] {
+    display: none;
+}
+
+.metadata-container:not(.is-active) 
+.metadata-property[data-property-key="cssclasses"] {
+    display: none;
+} 
+
+.metadata-container .metadata-property[data-property-key="sha256"] {
+    display: none;
+} */
+
+.metadata-container svg.svg-icon {
+    width: var(--icon-xs) !important;
+    height: var(--icon-xs) !important;
+}
+

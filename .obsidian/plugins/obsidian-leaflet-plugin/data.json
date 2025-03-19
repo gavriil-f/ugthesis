@@ -1,0 +1,243 @@
+{
+  "mapMarkers": [
+    {
+      "id": "moldova1",
+      "lastAccessed": 1741871893533,
+      "markers": [
+        {
+          "id": "ID_ca4a38b86afb",
+          "type": "default",
+          "loc": [
+            48.86546763011656,
+            30.895444685576205
+          ],
+          "layer": "https://api.maptiler.com/tiles/hillshade/{z}/{x}/{y}.webp?key=RyziwwACCnHb48cpBmTf",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Moldova.md"
+      ]
+    },
+    {
+      "id": "moldova",
+      "lastAccessed": 1741872099783,
+      "markers": [
+        {
+          "id": "ID_7a3878db6a6b",
+          "type": "default",
+          "loc": [
+            45.94896157609517,
+            30.11118277776519
+          ],
+          "layer": "real",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_bb9a09db9a1b",
+          "type": "default",
+          "loc": [
+            47.25476684472721,
+            30.4609134030085
+          ],
+          "layer": "https%3A%2F%2Fapi.maptiler.com%2Ftiles%2Fhillshade%2F%7Bz%7D%2F%7Bx%7D%2F%7By%7D.webp%3Fkey%3DRyziwwACCnHb48cpBmTf",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_b84b6aaa9bf8",
+          "type": "default",
+          "loc": [
+            47.13637369403342,
+            28.69145752915995
+          ],
+          "layer": "https://api.maptiler.com/tiles/hillshade/{z}/{x}/{y}.webp?key=RyziwwACCnHb48cpBmTf",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [
+        {
+          "type": "polyline",
+          "color": "#3388FF",
+          "vertices": [
+            {
+              "lat": 48.1130094265119,
+              "lng": 26.90626624689854,
+              "id": "ID_9a593b3ae80b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 47.90721408307515,
+              "lng": 27.0051844650134,
+              "id": "ID_eb19eb59aada",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 47.536983144915254,
+              "lng": 27.402653510780112,
+              "id": "ID_fb18cafbd918",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 47.29979967432742,
+              "lng": 27.3349118587295,
+              "id": "ID_9878ea299b4b",
+              "targets": {
+                "vertexIds": []
+              }
+            },
+            {
+              "lat": 47.28489654871304,
+              "lng": 27.279957293110158,
+              "id": "ID_0aeab99808d9",
+              "targets": {
+                "vertexIds": []
+              }
+            }
+          ],
+          "arrows": true,
+          "reversed": false
+        }
+      ],
+      "files": [
+        "Moldova.md"
+      ]
+    },
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1742045172354,
+      "markers": [
+        {
+          "id": "ID_398bfbda8848",
+          "type": "default",
+          "loc": [
+            51.12421275782688,
+            9.931640625000002
+          ],
+          "layer": "real",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "Moldova.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "6.0.5",
+  "version": {
+    "major": 6,
+    "minor": 0,
+    "patch": 5
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": true,
+    "defaultZoom": 7,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [
+      "[[geoBoundaries/geoBoundaries/releaseData/gbOpen/MDA/ADM1.json]]"
+    ],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "real",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "real"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "moldova",
+    "coordinates": [
+      47.2879608,
+      28.5670941
+    ],
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png",
+  "defaultAttribution": "&copy; <a href=\"https://www.openstreetmap.org/copyright\">OpenStreetMap</a> contributors &copy; <a href=\"https://carto.com/attributions\">CARTO</a>",
+  "defaultTileSubdomains": "a,b,c,d"
+}

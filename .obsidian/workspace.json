@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "0a50704611c4cb7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "fb1b6752758f9039",
+        "type": "tabs",
+        "dimension": 75.21588946459413,
+        "children": [
+          {
+            "id": "a9dff25627e0c825",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ffe3a8e43aa73f91",
+        "type": "tabs",
+        "dimension": 24.784110535405873,
+        "children": [
+          {
+            "id": "a6833a2447b409bb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84881c98433419f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "606c55992c6ed81a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c66207c6f222e4e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "38feae0fd5cf57ad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5
+  },
+  "right": {
+    "id": "516850473ed65e67",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d9ff6ea40d86c96",
+        "type": "tabs",
+        "dimension": 61.795166858457996,
+        "children": [
+          {
+            "id": "09e9c596050de55b",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "notebook/Scraping article content and metadata.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Scraping article content and metadata"
+            }
+          },
+          {
+            "id": "25e08ed28b1b5c60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "data/tests/gagauznews.com/gagauznews.com_esli-mozhno-razdat-vsem-deshyovyj-gaz-to-pochemu-nelzya-razdat-kredity-ot-mvf-html.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of gagauznews.com_esli-mozhno-razdat-vsem-deshyovyj-gaz-to-pochemu-nelzya-razdat-kredity-ot-mvf-html"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ec7eb897c58fac3d",
+        "type": "tabs",
+        "dimension": 38.204833141542004,
+        "children": [
+          {
+            "id": "7d50b4e726d0bcc4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clippings/How Do I Use Command Line Flags in Brave - Brave Help Center 2020-06-16.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from How Do I Use Command Line Flags in Brave - Brave Help Center 2020-06-16"
+            }
+          },
+          {
+            "id": "45f4b50ef41c2ef3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "References/Gagauznews.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "papers",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Gagauznews"
+            }
+          },
+          {
+            "id": "23bb8ddf4a921f5a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "tab-selector:Open tab selector": false,
+      "workspaces:Manage workspace layouts": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "switcher:Open quick switcher": true,
+      "command-palette:Open command palette": true,
+      "iconic:Open rulebook": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "code-files:Create Code File": false
+    }
+  },
+  "active": "a9dff25627e0c825",
+  "lastOpenFiles": [
+    "notebook/references/Untitled.md",
+    "data/tests/jurnaltv.md/jurnaltv.md_muzeografii-au-fost-premiati-html.md",
+    "data/tests/jurnaltv.md/jurnaltv.md_n.md",
+    "data/tests/jurnaltv.md",
+    "data/tests/evedomosti.md/evedomosti.md_kandidat-ot-gruzinskoj-mechty-kavelashvili-izbran-prezidento.md",
+    "data/tests/evedomosti.md/evedomosti.md_stoimost-grupp-prodlennogo-dnya-budet-varirovat-ot-350-do-50.md",
+    "data/tests/evedomosti.md/evedomosti.md_grosu-priznal-chto-popravki-v-zakon-ob-izmene-rodine-prednaz.md",
+    "data/tests/evedomosti.md",
+    "data/tests/nokta.md/nokta.md_es-potratit-100-millionov-evro-na-ekspress-testy-na-covid-19.md",
+    "data/tests/nokta.md/nokta.md_biologi-ne-iskljuchajut-chto-v-moldove-byli-smertelnye-sluchai-vyzvannye-virusom-zapadnogo-nila.md",
+    "data/tests/nokta.md/nokta.md_kandu-za-deputatami-pro-moldova-sledyat-po-prosbe-dodona.md",
+    "data/tests/nokta.md",
+    "data/tests/md.kp.media/md.kp.media_5721263.md",
+    "data/tests/md.kp.media/md.kp.media_5618806.md",
+    "data/tests/md.kp.media/md.kp.media_5713265.md",
+    "data/tests/md.kp.media",
+    "data/tests/gagauzinfo.md/gagauzinfo.md_filat-o-svobode-i-demokratii-sandu-i-pas-daleki-ot-tsennostei-evrosoyuza.md",
+    "data/tests/gagauzinfo.md/gagauzinfo.md_komratskii-oguzsport-privez-chetire-pobedi-so-sborov-v-stambule.md",
+    "data/tests/gagauzinfo.md/gagauzinfo.md_reforma-restart-sotrudniki-sluzhbi-sotsobespecheniya-raiona-basarabyaska-do-sih-por-zhdut-viplat.md",
+    "data/tests/gagauzinfo.md",
+    "data/tests/gagauznews.com/gagauznews.com_delo-yuriya-alekseeva-harakterizuet-latviyu-kak-politsejskoe-gosudarstvo-html.md",
+    "data/tests/gagauznews.com/gagauznews.com_vse-remesla-gagauzii-olga-nejkovchena-biseropletenie-html.md",
+    "data/tests/gagauznews.com/gagauznews.com_fotofakt-pas-prevrashhaet-evrointegratsiyu-v-ofitsialnuyu-ideologiyu-html.md",
+    "data/tests/test_articles.csv",
+    "data/jurnaltv.md.txt",
+    "data/tests/jurnaltv.md/jurnaltv.md_jurnalul-orei-19-20-iunie-html.md",
+    "notebook/references",
+    "README.md",
+    "notebook/assets/Screenshot 2025-03-18_150303@2x.png",
+    "scripts/old-scraper.py",
+    "Untitled.md",
+    "Article scraper.md",
+    "notebook/assets",
+    "data/articles.csv",
+    "data/tests/gagauznews.com",
+    "Clippings",
+    "scripts/articles.py",
+    "notebook/assets/sitemap_gagauznews_1600x1200@2x.png",
+    "Attachments/Photos/76358291277__CB7ABD28-1691-462F-BC57-C1A78AC0A1AB 2.jpeg",
+    "Attachments/Flags/flag-of-the-united-states.svg",
+    "Attachments/Flags/flag-of-the-united-nations.svg",
+    "Attachments/Flags/flag-of-the-united-kingdom.svg",
+    "Attachments/Flags/flag-of-the-taliban.svg",
+    "Attachments/Flags/flag-of-syria.svg",
+    "Attachments/Flags/flag-of-switzerland.svg",
+    "Attachments/Flags/flag-of-palm-beach-county-florida.svg",
+    "Drafts/Primates taxonomy.canvas",
+    "Drafts/UG thesis plan of action.canvas",
+    "Drafts/Untitled.canvas",
+    "Primates taxonomy.canvas",
+    ".trash/Untitled.canvas",
+    ".trash/Untitled 2.canvas",
+    "Living room.canvas",
+    "Drafts/UI and Web.canvas"
+  ]
+}

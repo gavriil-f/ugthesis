@@ -1,0 +1,45 @@
+{
+  "debounceTimeout": 300,
+  "ignoreOpenFiles": true,
+  "ignoreForceViewAll": false,
+  "folders": [
+    {
+      "folder": "Templates",
+      "viewMode": "obsidianEditingMode: live"
+    },
+    {
+      "folder": "Categories",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Attachments",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Meta",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "References",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "folder": "Projects/U",
+      "viewMode": "obsidianUIMode: preview"
+    }
+  ],
+  "files": [
+    {
+      "filePattern": "Clippings",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "Drafts",
+      "viewMode": "obsidianUIMode: preview"
+    },
+    {
+      "filePattern": "",
+      "viewMode": ""
+    }
+  ]
+}

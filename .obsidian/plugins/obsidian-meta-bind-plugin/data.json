@@ -1,0 +1,70 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "DD/MM/YYYY",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": true,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "table-width-input",
+      "declaration": "INPUT[inlineSelect(class(css-button table-width-button), option(null, Normal), option(table-wide, Wide), option(table-max, Max), option(table-100, 100%)):memory^width]"
+    },
+    {
+      "name": "card-input",
+      "declaration": "INPUT[inlineSelect(class(css-button card-button), option(null, Table), option(cards, Cards), option(cards cards-square, Square), option(cards cards-preview, Text)):memory^card]"
+    },
+    {
+      "name": "quick-note",
+      "declaration": "INPUT[textArea(class(quick-note))]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "-help",
+      "icon": "",
+      "style": "plain",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Runs [command] -help in a new Terminal window",
+      "id": "terminal-help",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-shellcommands:shell-command-5c9ps70f0j"
+        }
+      ]
+    },
+    {
+      "label": "Docs",
+      "icon": "badge-help",
+      "style": "plain",
+      "class": "",
+      "cssStyle": "",
+      "backgroundImage": "",
+      "tooltip": "Open the bookmarked docs page",
+      "id": "docs",
+      "hidden": false,
+      "actions": [
+        {
+          "type": "command",
+          "command": "obsidian-shellcommands:shell-command-gyd9mkbbo7"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "templates"
+  ]
+}

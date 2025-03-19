@@ -1,0 +1,306 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1739495393462,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1739495513265,
+          "path": "Data.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1739495545173,
+          "path": "Images.md"
+        }
+      ],
+      "title": "Attachments"
+    },
+    {
+      "type": "group",
+      "ctime": 1738951976843,
+      "items": [],
+      "title": "Priority"
+    },
+    {
+      "type": "group",
+      "ctime": 1738486722345,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1739349397823,
+          "items": [],
+          "title": "Canvas"
+        },
+        {
+          "type": "group",
+          "ctime": 1738535489058,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1738535634590,
+              "items": [
+                {
+                  "type": "url",
+                  "ctime": 1738535578710,
+                  "url": "https://blacksmithgu.github.io/obsidian-dataview/",
+                  "title": "Overview"
+                },
+                {
+                  "type": "group",
+                  "ctime": 1738535702276,
+                  "items": [],
+                  "title": "Metadata"
+                }
+              ],
+              "title": "Dataview"
+            },
+            {
+              "type": "url",
+              "ctime": 1738543620371,
+              "url": "https://blacksmithgu.github.io/datacore/",
+              "title": "Datacore"
+            },
+            {
+              "type": "url",
+              "ctime": 1738578808477,
+              "url": "https://rhettbull.github.io/osxphotos/overview.html",
+              "title": "osxphotos"
+            }
+          ],
+          "title": "Documentation"
+        },
+        {
+          "type": "url",
+          "ctime": 1738486695181,
+          "url": "https://chatgpt.com/",
+          "title": "ChatGPT"
+        },
+        {
+          "type": "group",
+          "ctime": 1739349397823,
+          "items": [],
+          "title": "Canvas"
+        }
+      ],
+      "title": "Pins"
+    },
+    {
+      "type": "group",
+      "ctime": 1736884384599,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1736884375449,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1740487708879,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1740487770149,
+                  "path": "K&R revision session 3 of 4.md",
+                  "title": "Notes"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740487756019,
+                  "path": "Drafts/K&R revision session essay 3 of 4.md",
+                  "title": "Draft essay"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740487745555,
+                  "path": "The subtraction argument for metaphysical nihilism.md"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740487786708,
+                  "path": "Modality.md",
+                  "title": "Modality"
+                },
+                {
+                  "type": "file",
+                  "ctime": 1740487795073,
+                  "path": "Possible worlds.md"
+                }
+              ],
+              "title": "Revision Session 3 of 4"
+            },
+            {
+              "type": "file",
+              "ctime": 1737047886777,
+              "path": "102 Knowledge and Reality.md",
+              "title": "Overview"
+            },
+            {
+              "type": "group",
+              "ctime": 1741469359956,
+              "items": [
+                {
+                  "type": "file",
+                  "ctime": 1741469389168,
+                  "path": "References/Spencer 2018 “Racial realism II’.md",
+                  "title": "Spencer 2018 “Racial realism II: Are races real?\""
+                }
+              ],
+              "title": "Metaphysics of race"
+            }
+          ],
+          "title": "102 K&R"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028170460,
+          "items": [],
+          "title": "103 Ethics"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028193671,
+          "items": [],
+          "title": "202 BPG"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028200354,
+          "items": [],
+          "title": "207 FSU"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028205154,
+          "items": [],
+          "title": "214 IR"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028226604,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1737047802904,
+              "path": "W1 Micro tutorial.md"
+            }
+          ],
+          "title": "302 Micro"
+        },
+        {
+          "type": "group",
+          "ctime": 1737028236939,
+          "items": [
+            {
+              "type": "group",
+              "ctime": 1739675744838,
+              "items": [],
+              "title": "Tutorials"
+            }
+          ],
+          "title": "318 Finance"
+        }
+      ],
+      "title": "Studies"
+    },
+    {
+      "type": "group",
+      "ctime": 1737005878898,
+      "items": [
+        {
+          "type": "group",
+          "ctime": 1739170602166,
+          "items": [
+            {
+              "type": "file",
+              "ctime": 1739172565137,
+              "path": "AQA GCSE mathematics.md",
+              "title": "Spec"
+            },
+            {
+              "type": "file",
+              "ctime": 1737019996875,
+              "path": "Notes/Arina maths ce.md",
+              "title": "Plan"
+            },
+            {
+              "type": "file",
+              "ctime": 1739181436100,
+              "path": "Arina maths checklist.md",
+              "title": "Checklist"
+            },
+            {
+              "type": "file",
+              "ctime": 1739153298895,
+              "path": "AQA GCSE maths notes.md",
+              "title": "Overview"
+            },
+            {
+              "type": "file",
+              "ctime": 1739175010175,
+              "path": "AQA GCSE maths number notes.md",
+              "title": "Number"
+            },
+            {
+              "type": "file",
+              "ctime": 1739174988452,
+              "path": "AQA GCSE maths formulas.md",
+              "title": "Formulas"
+            },
+            {
+              "type": "file",
+              "ctime": 1739175332146,
+              "path": "AQA GCSE maths notes appendix.md",
+              "title": "Appendix"
+            }
+          ],
+          "title": "Arina"
+        },
+        {
+          "type": "group",
+          "ctime": 1740678971626,
+          "items": [],
+          "title": "Ilya"
+        }
+      ],
+      "title": "Tutoring"
+    },
+    {
+      "type": "group",
+      "ctime": 1737028189521,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1741628353864,
+          "path": "Brainstorming data sources for UG thesis.md",
+          "title": "Brainstorming data sources"
+        },
+        {
+          "type": "file",
+          "ctime": 1741628310377,
+          "path": "Potential research questions for UG thesis.md",
+          "title": "Potential research questions"
+        },
+        {
+          "type": "file",
+          "ctime": 1741628337469,
+          "path": "UG thesis meeting with Nicholas 2024-11-01.md",
+          "title": "Meeting with Nicholas 2024-11-01"
+        },
+        {
+          "type": "file",
+          "ctime": 1741628769948,
+          "path": "Thesis support session with Robin 2025-02-28.md",
+          "title": "Meeting with Robin 2025-02-28"
+        },
+        {
+          "type": "file",
+          "ctime": 1741859454532,
+          "path": "Drafts/UG thesis data gathering roadmap.md",
+          "title": "Data"
+        }
+      ],
+      "title": "299 Thesis"
+    }
+  ]
+}

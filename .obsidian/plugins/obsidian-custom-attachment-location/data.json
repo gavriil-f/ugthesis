@@ -1,0 +1,16 @@
+{
+  "attachmentFolderPath": "./assets/${filename}",
+  "attachmentRenameMode": "Only pasted images",
+  "duplicateNameSeparator": " ",
+  "generatedAttachmentFilename": "",
+  "jpegQuality": 0.8,
+  "shouldConvertPastedImagesToJpeg": false,
+  "shouldDeleteOrphanAttachments": false,
+  "shouldKeepEmptyAttachmentFolders": false,
+  "shouldRenameAttachmentFiles": false,
+  "shouldRenameAttachmentFolder": true,
+  "shouldRenameAttachmentsToLowerCase": false,
+  "shouldRenameCollectedAttachments": false,
+  "whitespaceReplacement": "",
+  "customTokensStr": ""
+}

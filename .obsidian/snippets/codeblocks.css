@@ -1,0 +1,150 @@
+/* Variables */
+
+body {
+    --codeblock-radius: var(--radius-l);
+}
+
+/* Inline code */
+.markdown-rendered:not(pre > code) code {
+    --code-radius: var(--radius-s);
+}
+
+/* Code blocks */
+.markdown-rendered pre:has(> code) {
+    border-radius: var(--codeblock-radius);
+}
+
+.markdown-preview-view pre {
+    border: 1px solid var(--ui1);
+    position: relative;
+}
+
+/* Extra margin alignment */
+.markdown-preview-view pre {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+/* To make sure border doesn't clip the content */
+.markdown-preview-view pre > code {
+    padding: 1px;
+    white-space: pre;
+}
+
+/* pre line
+.markdown-preview-view pre > code::before { 
+    content : ""; 
+    display: block;
+} */
+
+
+/* Copy code button */
+.markdown-rendered pre:hover > button.copy-code-button > .svg-icon {
+    --icon-size: var(--icon-xs);
+}
+
+.markdown-rendered pre:hover > button.copy-code-button {
+/*    top: auto;
+    bottom: 0; */
+    border-radius: calc(var(--codeblock-radius) * 0.75);
+    padding: 1em;
+}
+
+/*.markdown-pr view-view pre > code[class*="language-"] {
+    padding-top: 0.85em !important;
+} */
+
+body pre[class^="language-"]::before {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 0.8em;
+    color: var(--ui3);
+}
+
+.markdown-rendered pre .obsidian-embed-code-file {
+    position: relative;
+    top: 3px;
+    left: 0px;
+    font-size: var(--font-ui-small);
+    font-weight: 500;
+    padding: 0px 0px !important;
+    border: none;
+    margin-top: 0!important;
+    margin-left: 0!important;
+    margin-right: 0!important;
+    margin-bottom: 0!important;
+}
+
+.block-language-dirtree {
+    font-family: var(--font-monospace);
+}
+
+/* Link blocks */
+
+div.el-pre:has(div.w) > div {
+    min-width: 30% !important;
+    font-size: var(--font-ui-small) !important;
+    border-radius: 15px !important;
+    max-width: 60%;
+    max-height: 8em;
+}
+
+div.el-pre:has(div.w) a {
+    background-position-y: -1.5em !important;
+}
+
+
+/* Languages */
+
+
+
+body pre[class~='language-shell']> code::before,
+body pre[class~='language-bash'] > code::before { content: "$ "; }
+body pre[class~='language-zsh'] > code::before { content: "% "; }
+body pre[class~='language-powershell'] > code::before { content: "> "; }
+body pre[class~='language-json'] > code::before { content : "{"; display: block;}
+body pre[class~='language-json'] > code::after { content: "}"; }
+
+
+body pre[class~='language-assistant']> code::before { content: "Assistant: "; }
+
+/*
+body pre[class~='language-c']::before { content: "c"; }
+body pre[class~='language-cs']::before { content: "c#"; }
+body pre[class~='language-cpp']::before { content: "c++"; }
+body pre[class~='language-java']::before { content: "java"; }
+body pre[class~='language-python']::before,
+body pre[class~='language-py']::before { content: "python"; }
+body pre[class~='language-javascript']::before,
+body pre[class~='language-js']::before { content: "js"; }
+body pre[class~='language-html']::before { content: "html"; }
+body pre[class~='language-css']::before { content: "css"; }
+body pre[class~='language-xml']::before { content: "xml"; }
+body pre[class~='language-php']::before { content: "php"; }
+body pre[class~='language-shell']> code::before,
+body pre[class~='language-bash'] > code::before { content: "$ "; }
+body pre[class~='language-flow']::before { content: "flow"; }
+body pre[class~='language-sequence']::before { content: "sequence"; }
+body pre[class~='language-sql']::before { content: "sql"; }
+body pre[class~='language-yaml']::before,
+body pre[class~='language-yml']::before { content: "yaml"; }
+body pre[class~='language-ini']::before { content: "ini"; }
+body pre[class~='language-git']::before { content: "git"; }
+body pre[class~='language-txt']::before { content: "txt"; }
+body pre[class~='language-r']::before { content: "r"; }
+body pre[class~='language-applescript']::before { content: "applescript"; }
+body pre[class~='language-rust']::before { content: "rust"; }
+body pre[class~='language-go']::before { content: "go"; }
+body pre[class~='language-typescript']::before,
+body pre[class~='language-ts']::before { content: "typescript"; }
+body pre[class~='language-ruby']::before,
+body pre[class~='language-rb']::before { content: "ruby"; }
+body pre[class~='language-kotlin']::before,
+body pre[class~='language-kt']::before { content: "kotlin"; }
+body pre[class~='language-swift']::before { content: "swift"; }
+body pre[class~='language-dockerfile']::before { content: "dockerfile"; }
+body pre[class~='language-markdown']::before,
+body pre[class~='language-md']::before { content: "markdown"; }
+body pre[class~='language-json']::before { content: "json"; }
+*/

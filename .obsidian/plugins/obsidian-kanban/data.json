@@ -1,0 +1,18 @@
+{
+  "show-checkboxes": true,
+  "move-dates": true,
+  "metadata-keys": [
+    {
+      "metadataKey": "topics",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": true
+    },
+    {
+      "metadataKey": "related",
+      "label": "",
+      "shouldHideLabel": false,
+      "containsMarkdown": true
+    }
+  ]
+}

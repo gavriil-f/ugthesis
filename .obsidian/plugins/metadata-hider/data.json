@@ -1,0 +1,36 @@
+{
+  "autoFold": false,
+  "hideEmptyEntry": true,
+  "hideEmptyEntryInSideDock": false,
+  "propertiesVisible": "",
+  "propertyHideAll": "hide",
+  "entries": [
+    {
+      "name": "cssclasses",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "toolbar",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    },
+    {
+      "name": "identifier",
+      "hide": {
+        "tableInactive": true,
+        "tableActive": false,
+        "fileProperties": false,
+        "allProperties": false
+      }
+    }
+  ]
+}

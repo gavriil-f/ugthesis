@@ -1,0 +1,73 @@
+{
+  "recentFiles": [
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "Screenshot 2025-03-18_150303@2x",
+      "path": "notebook/assets/Screenshot 2025-03-18_150303@2x.png"
+    },
+    {
+      "basename": "Scraping article content and metadata",
+      "path": "notebook/Scraping article content and metadata.md"
+    },
+    {
+      "basename": "Getting a list of articles",
+      "path": "notebook/Getting a list of articles.md"
+    },
+    {
+      "basename": "WIP react-based viewer for CSV data",
+      "path": "notebook/WIP react-based viewer for CSV data.md"
+    },
+    {
+      "basename": "gagauznews.com_99997_desyat-kompanij-i-kosmicheskih-agentstv-sozdali-alyans-po-udaleniyu-kosmicheskogo-musora",
+      "path": "data/raw/articles/gagauznews.com/gagauznews.com_99997_desyat-kompanij-i-kosmicheskih-agentstv-sozdali-alyans-po-udaleniyu-kosmicheskogo-musora.md"
+    },
+    {
+      "basename": "восемь-задержанных-в-гагаузии-человек-помещены-под-арест",
+      "path": "data/raw/articles/gagauzinfo.md/восемь-задержанных-в-гагаузии-человек-помещены-под-арест.md"
+    },
+    {
+      "basename": "article_urls",
+      "path": "scripts/article_urls.py"
+    },
+    {
+      "basename": "config",
+      "path": "ugthesis/ugthesis/config.md"
+    },
+    {
+      "basename": "sitemap_gagauznews_1600x1200@2x",
+      "path": "notebook/assets/sitemap_gagauznews_1600x1200@2x.png"
+    },
+    {
+      "basename": "Sidecar panel",
+      "path": "Internal/Templates/Sidecar panel.md"
+    },
+    {
+      "basename": "Flexoki colour palette",
+      "path": "Flexoki colour palette.md"
+    },
+    {
+      "basename": "Browser",
+      "path": "Meta/Browser.md"
+    },
+    {
+      "basename": "Untitled 6",
+      "path": "Untitled 6.md"
+    },
+    {
+      "basename": "Rendering note properties in a sidecar panel",
+      "path": "Rendering note properties in a sidecar panel.md"
+    }
+  ],
+  "omittedPaths": [
+    ""
+  ],
+  "omittedTags": [
+    ""
+  ],
+  "updateOn": "file-open",
+  "omitBookmarks": false,
+  "maxLength": 30
+}

@@ -1,0 +1,273 @@
+{
+  "emptyViewToolbar": null,
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [],
+  "icon": "circle-ellipsis",
+  "ribbonAction": "toolbar",
+  "scriptingEnabled": false,
+  "showEditInFabMenu": false,
+  "showToolbarInFileMenu": false,
+  "toolbarProp": "toolbar",
+  "toolbars": [
+    {
+      "uuid": "633a8c68-7b9b-446b-8f7b-d8db14747568",
+      "customClasses": "",
+      "defaultStyles": [
+        "even",
+        "sticky",
+        "button"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "a4936e5b-8b01-4f77-b3d8-a7bf86985209",
+          "label": "",
+          "icon": "lucide-chevron-left",
+          "link": "Daily notes: Open next daily note",
+          "linkAttr": {
+            "commandId": "daily-notes:goto-next",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Previous daily note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "29fceff4-2247-4656-8770-41e5caf97008",
+          "label": "",
+          "icon": "lucide-chevron-right",
+          "link": "Daily notes: Open next daily note",
+          "linkAttr": {
+            "commandId": "daily-notes:goto-next",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Next daily note",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "cd4de47f-4f52-4186-957a-ba05ccbb10f2",
+          "label": "",
+          "icon": "lucide-plus-circle",
+          "link": "Templater: Insert Internal/Templates/Add todos template.md",
+          "linkAttr": {
+            "commandId": "templater-obsidian:Internal/Templates/Add todos template.md",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Add todos",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "daily",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-03-10T16:34:06.058Z"
+    },
+    {
+      "uuid": "2ba658db-a22b-46d7-b395-fab7e3ab5909",
+      "customClasses": "repository-toolbar",
+      "defaultStyles": [
+        "even",
+        "sticky"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "901e39b5-795d-45fe-b0cd-5150fad5cb50",
+          "label": "",
+          "icon": "lucide-refresh-cw",
+          "link": "Shell commands: Execute: Refresh repository from saved",
+          "linkAttr": {
+            "commandId": "obsidian-shellcommands:shell-command-5kmg5qr386",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Refresh from local clone",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "ca2ef5bf-7378-4f74-a2d3-86c2a290508f",
+          "label": "",
+          "icon": "lucide-hard-drive-download",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Update from GitHub",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "repositories",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "bottom"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2025-03-10T16:46:34.626Z"
+    }
+  ],
+  "version": 20240727.1,
+  "whatsnew_version": 1.18
+}

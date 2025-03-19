@@ -1,0 +1,296 @@
+/* Mac-style Windows controls + some tweaks */
+
+/* Variables */
+body {
+  --close-button-color: #ff5f57;
+  --minimize-button-color: #ffbd2e;
+  --maximize-button-color: #28c940;
+  --unfocused-button-color: #777775;
+
+  --close-button-symbol: '×';
+  --minimize-button-symbol: '-';
+  --maximize-button-symbol-1: '◤';
+  --maximize-button-symbol-2: '◢'; 
+  
+/*Rotating the one variable proved to finnicky */
+
+  --ttbar-symbol-color: rgba(10, 10, 10, 0.55);
+  --ttbar-button-border: var(--background-primary-alt);
+  --ttbar-button-shading: var(--background-primary);
+  --ttbar-buttons-transition: none;
+}
+
+/* Scopes */
+.is-focused .titlebar-button.mod-close {
+  --ttbar-button-color: var(--close-button-color);
+  --ttbar-button-symbol: var(--close-button-symbol);
+}
+
+.is-focused .titlebar-button.mod-minimize {
+  --ttbar-button-color: var(--minimize-button-color);
+  --ttbar-button-symbol: var(--minimize-button-symbol);
+}
+
+.is-focused .titlebar-button.mod-maximize {
+  --ttbar-button-color: var(--maximize-button-color);
+  --ttbar-button-symbol: var(--maximize-button-symbol);
+} 
+
+.mod-linux, .mod-windows {
+  --ttbar-button-color: var(--unfocused-button-color);
+}
+
+/* Base */
+.mod-linux .titlebar-button.mod-close,
+.mod-windows .titlebar-button.mod-close {
+  background-color: var(--ttbar-button-color);
+  color: var(--ttbar-button-color);
+  border: 1px var(--ttbar-button-border) solid;
+  box-shadow: inset 0 0 1.5px 1px var(--ttbar-button-shading);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  transform: scale(0.3);
+}
+
+
+.mod-linux .titlebar-button.mod-minimize,
+.mod-windows .titlebar-button.mod-minimize {
+  background-color: var(--ttbar-button-color);
+  color: var(--ttbar-button-color);
+  border: 1px var(--ttbar-button-border) solid;
+  box-shadow: inset 0 0 1.5px 1px var(--ttbar-button-shading);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  transform: scale(0.3);
+}
+
+.mod-linux .titlebar-button.mod-maximize,
+.mod-windows .titlebar-button.mod-maximize {
+  background-color: var(--ttbar-button-color);
+  color: var(--ttbar-button-color);
+  border: 1px var(--ttbar-button-border) solid;
+  box-shadow: inset 0 0 1.5px 1px var(--ttbar-button-shading);
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  transform: scale(0.3);
+}
+
+/* Hiding red X button overlay */
+.is-focused .mod-linux .titlebar-button.mod-close:hover, .mod-windows .titlebar-button.mod-close:hover {
+  --background-modifier-error: var(--close-button-color);
+}
+
+/* Close symbol adjustments */
+.mod-linux .titlebar-button.mod-close::after
+.mod-windows .titlebar-button.mod-close::after {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  color: var(--close-button-color);
+  font-size: 41px;
+  font-weight: bolder;
+  pointer-events: none;
+}
+
+.mod-linux .titlebar-button-container.mod-right:hover .titlebar-button.mod-close::after, 
+.mod-windows .titlebar-button-container.mod-right:hover .titlebar-button.mod-close::after {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  color: var(--bg1);
+  opacity: 0.75;
+  font-size: 41px;
+  font-weight: bolder;
+  pointer-events: none;
+  transition: var(--ttbar-buttons-transition);
+}
+
+/* Minimize symbol adjustments */
+.mod-linux .titlebar-button-container.mod-right .titlebar-button.mod-minmize::after, 
+.mod-windows .titlebar-button-container.mod-right .titlebar-button.mod-minimize::after {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--minimize-button-color);
+  font-size: 45px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+.mod-linux .titlebar-button-container.mod-right:hover .titlebar-button.mod-minmize::after, 
+.mod-windows .titlebar-button-container.mod-right:hover .titlebar-button.mod-minimize::after {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--ttbar-symbol-color);
+  font-size: 45px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+/* Maximize button hover states with triangles */
+.mod-linux .titlebar-button-container.mod-right:hover .titlebar-button.mod-maximize::before, 
+.mod-windows .titlebar-button-container.mod-right:hover .titlebar-button.mod-maximize::before {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  rotate: 180deg;
+  color: var(--ttbar-symbol-color);
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+  transition: all 0.3s linear;
+}
+
+
+.mod-linux .titlebar-button-container.mod-right:hover .titlebar-button.mod-maximize::after, 
+.mod-windows .titlebar-button-container.mod-right:hover .titlebar-button.mod-maximize::after {
+  content: var(--ttbar-button-symbol);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  color: var(--ttbar-symbol-color);
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+  transition: (tran);
+}
+
+/* Reloacting the buttons to the left */
+.mod-linux .titlebar-button-container.mod-right,
+.mod-windows .titlebar-button-container.mod-right {
+  left: 0px;
+  position: absolute;
+  -webkit-app-region: drag !important;
+  cursor: default;
+  z-index: 1000;
+  display: flex;
+}
+
+.mod-linux .titlebar-button.mod-close,
+.mod-windows .titlebar-button.mod-close {
+  left: -80px !important;
+  position: relative;
+  -webkit-app-region: no-drag !important;
+}
+
+.mod-linux .titlebar-button.mod-minimize,
+.mod-windows .titlebar-button.mod-minimize {
+  left: 16px !important;
+  position: sticky;
+}
+
+.mod-linux .titlebar-button.mod-maximize,
+.mod-windows .titlebar-button.mod-maximize {
+  left: -5px !important;
+  position: relative;
+  z-index: 1000;
+  -webkit-app-region: no-drag !important;
+}
+
+/* 'Fixing' spacing and window dragging */
+.labeled-nav .mod-left-split .mod-top .workspace-tab-header-container {
+  position: relative;
+  height: auto;
+  top: 1.5em;
+  margin-bottom: 1.5em;
+  width: 100% !important; 
+}
+
+body.mod-windows > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-horizontal.mod-sidedock.mod-left-split > div.workspace-tabs.mod-top.mod-top-left-space > div.workspace-tab-header-container > div.workspace-tab-header-container-inner > div > div {
+  height: fit-content;
+  line-height: var(--line-height);
+}
+
+.mod-windows .workspace-tab-header[aria-label="Files"] {
+  pointer-events: none;
+  margin-top: 1.5em;
+}
+
+.mod-windows .workspace-tab-header[aria-label="Files"] .workspace-tab-header-inner-title {
+  pointer-events: auto !important;
+  -webkit-app-region: no-drag !important;
+  -webkit-user-drag: none !important;
+}
+
+.mod-windows .workspace-tab-header[aria-label="Files"] > div > div > svg {
+  pointer-events: auto !important;
+}
+
+.mod-windows .titlebar-inner {
+  -webkit-app-region: drag !important;
+  position: static !important;
+  pointer-events: none !important;
+}
+
+.mod-windows .titlebar-inner::after {
+  content: '';
+  width: 120%;
+  position: relative !important;
+  visibility: hidden;
+}
+
+body > div.titlebar > div > div.titlebar-button-container.mod-right {
+  width: 500px;
+}
+
+.titlebar-button-container.mod-left {
+  left: 0px;
+  position: absolute;
+  -webkit-app-region: no-drag !important;
+  cursor: default;
+  z-index: 1000;
+  margin-right: -5em;
+}
+
+.titlebar-inner {
+  pointer-events: none;
+  -webkit-app-region: no-drag !important;
+}
+
+.titlebar-button.mod-close{
+  left: -80px !important;
+  position: relative;
+  pointer-events: auto;
+  -webkit-app-region: no-drag !important;
+}
+.titlebar-button.mod-maximize{
+  left: 0px !important;
+  position: relative;
+  -webkit-app-region: no-drag !important;
+}
+
+.titlebar-button.mod-minimize{
+  left: 18px !important;
+  position: relative;
+}
+
+.workspace-tab-header[aria-label="Files"] {
+  pointer-events: none;
+}
+
+.workspace-tab-header[aria-label="Files"] .workspace-tab-header-inner-title {
+  pointer-events: auto !important;
+}
+
+.workspace-tab-header[aria-label="Files"] > div > div > svg {
+  pointer-events: auto !important;
+}
+
+.body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-horizontal.mod-sidedock.mod-right-split > div.workspace-tabs.mod-top.mod-top-right-space.vt-mod-top-right-space > div.workspace-tab-header-container > div.workspace-tab-header-container-inner {
+    width: 100%,
+    line-height: var(--line-height);
+}
+
+body > div.app-container > div.horizontal-main-container > div > div.workspace-split.mod-horizontal.mod-sidedock.mod-right-split > div.workspace-tabs.mod-top.mod-top-right-space.vt-mod-top-right-space > div.workspace-tab-header-container > div.workspace-tab-header-container-inner {
+    width: 100%;
+}
+

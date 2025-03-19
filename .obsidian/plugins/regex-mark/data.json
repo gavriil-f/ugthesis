@@ -1,0 +1,13 @@
+{
+  "mark": [
+    {
+      "regex": "",
+      "class": "",
+      "hide": false
+    }
+  ],
+  "pattern": {
+    "open": "{{open:(.*?)}}",
+    "close": "{{close:(.*?)}}"
+  }
+}

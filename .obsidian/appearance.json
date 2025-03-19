@@ -1,0 +1,30 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "translucency": true,
+  "enabledCssSnippets": [
+    "files",
+    "test",
+    "callouts",
+    "charts",
+    "codeblocks",
+    "context-menu",
+    "formatting",
+    "highlighters",
+    "toolbar",
+    "tasks",
+    "sidebar",
+    "properties",
+    "questions",
+    "images",
+    "latex",
+    "cards",
+    "tables"
+  ],
+  "showRibbon": false,
+  "textFontFamily": "",
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "SF Mono",
+  "accentColor": "",
+  "nativeMenus": false
+}

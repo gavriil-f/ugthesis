@@ -1,0 +1,83 @@
+/* Toolbars plugin */
+
+/* .cg-note-toolbar-container {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    box-shadow: none;
+    background-color: none;
+    border: none;
+    border-radius: 8px !important;
+    outline: var(--ui1) solid 1px;
+    transition: outline 0.1s ease-in;
+    transition: opacity 0.4s ease-in;
+    opacity: 0;
+}
+
+.cg-note-toolbar-container:hover{
+    outline: var(--background-modifier-border-hover) solid 1px !important;
+    transition: outline 0.1s ease-in;
+    transition: opacity 0.2s ease-in-out;
+    opacity: 100%;
+}
+
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] {
+    padding: 1em;
+    border-radius: 15px;
+    background: transparent !important;
+    border: none;
+} */
+
+.cg-note-toolbar-container {
+    right: calc(55px + 2em);
+    position: sticky;
+    width: auto;
+    height: var(--header-height);
+    padding: 0 !important;
+    display: flex;
+}
+
+.tb-article[data-callout="note-toolbar"] li:has([href="{{prop_publication}}"]),
+.tb-article[data-callout="note-toolbar"] li:has([href="{{prop_publication}}"]) span.external-link {
+    background-color: #1F2E60 !important;
+    color: var(--text-normal);
+}
+
+.tb-article[data-callout="note-toolbar"] li {
+    border-radius: 15px;
+    border: 1px var(--ui1) solid;
+}
+
+
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] .callout-content span {
+    display: inline-block;
+    background-color: rgba(0,0,0,0) !important;
+    background-color: var(--background-modifier-hover);
+    box-shadow: none !important;
+    padding-top: var(--size-2-3);
+    padding-bottom: var(--size-2-3);
+    padding-left: var(--size-4-3);
+    padding-right: var(--size-4-3);
+}
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] .callout-content ul {
+    gap: 2px;
+}
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] .callout-content span:not(:hover) {
+    background-color: rgba(0,0,0,0) !important;
+    background-color: var(--background-modifier-hover);
+    box-shadow: none !important;
+}
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] .callout-content span:hover {
+    opacity: var(--icon-opacity-hover);
+    color: var(--icon-color-hover);
+    background-color: var(--background-modifier-hover) !important;
+}
+
+.cg-note-toolbar-container .callout[data-callout="note-toolbar"] .callout-content svg {
+    height: var(--icon-s) !important;
+    width: var(--icon-s) !important;
+}

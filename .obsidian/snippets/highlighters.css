@@ -1,0 +1,36 @@
+.highlight-Yellow {
+    background-color: var(--text-highlight-bg) !important;
+    color: var(--text-normal);
+}
+
+.highlight-Red {
+    background-color: rgba(var(--color-red-rgb), 0.3) !important;
+    color: var(--text-normal);
+}
+
+.highlight-Green {
+    background-color: rgba(var(--color-green-rgb), 0.3) !important;
+    color: var(--text-normal);
+}
+
+.highlight-Blue {
+    background-color: rgba(var(--color-blue-rgb), 0.3) !important;
+    color: var(--text-normal);
+}
+
+.highlight-Purple {
+    background-color: rgba(var(--color-purple-rgb), 0.3) !important;
+    color: var(--text-normal);
+}
+
+/* cyan instead of magenta */
+.highlight-Magenta,
+.highlight-Cyan {
+    background-color: rgba(var(--color-cyan-rgb), 0.3) !important;
+    color: var(--text-normal);
+}
+
+.highlight-Orange {
+    background-color: rgba(var(--color-orange-rgb), 0.3) !important;
+    color: var(--text-normal);
+}

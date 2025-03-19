@@ -1,0 +1,7 @@
+.HyperMD-quote .math {
+    color: var(--blockquote-color) !important;
+}
+
+/*.table-cell-wrapper .math > .MathJax > .MJX-TEX {
+    font-style: italic !important;
+} */

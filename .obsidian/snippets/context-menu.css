@@ -1,0 +1,18 @@
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="New canvas"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Search in folder"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Count Words"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Show in Quick Explorer"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Create new note from template"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Import folder as Media DB entries"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Lint folder"],
+.menu > .menu-scroll > 
+div.menu-item.tappable[data-stylizer-title="Lint folder"]  {
+    display: none;
+}
