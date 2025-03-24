@@ -1,0 +1,23 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20241201225157/www.jurnaltv.md/news/bafe942bdef76800/brexit-moldovenesc-sau-rezervatia-pro-moldova-oazu-nantoi.html"
+url: "http://www.jurnaltv.md/news/bafe942bdef76800/brexit-moldovenesc-sau-rezervatia-pro-moldova-oazu-nantoi.html"
+language: ro
+title: "„BREXIT” moldovenesc sau Rezervația „pro-MOLDOVA” // Oazu Nantoi"
+publication: '[[JurnalTV]]'
+published: '2018-10-02'
+section: novosti
+description: "Moldova – țară de minuni, nu altceva! Iată și PDM-ul ”nostru”, aflându-se la guvernare din 2009, a reușit să-și păstreze vriginitatea politică până pe 20 ianurie 2016, când, pe la miezul nopții, Guvernul Filip și-a depus jurământul!"
+---
+
+# „BREXIT” moldovenesc sau Rezervația „pro-MOLDOVA” // Oazu Nantoi
+
+Moldova – țară de minuni, nu altceva! Iată și PDM-ul ”nostru”, aflându-se la guvernare din 2009, a reușit să-și păstreze vriginitatea politică până pe 20 ianurie 2016, când, pe la miezul nopții, Guvernul Filip și-a depus jurământul!
+
+A fost nevoie de cumpărarea a vreo 40 de aleși ai poporului din Parlament, pentru ca nesimțiții din PLDM și PL să nu să se opună grijii PDM față de popor, și să pornească treaba cu construcția drumurilor și conectarea la apa potabilă calitativă! De, mai rămâne problema cu canalizarea. Și cu justiția, printre altele.Dar și justiția asta e o mare pacoste! Țin minte cum l-am cunoscut, pe 6 aprilie 1992, pe Adrian Năstase, – tânărul, frumosul și deșteptul ministru de afaceri externe al României, venit la Chișinău să participe la întrunirea quadrilateră a miniștrilor afacerilor externe ai Republicii Moldova, Rusiei, Ucrainei și, respectiv, al României. Recunosc, el a fost cel mai eficient în apărarea poziției Republicii Moldova la masa de negocieri din punct de vedere al dreptului internațional!Ah, ce carieră politică strălucită a avut acest Adrian Năstase – aproape că a devenit Președinte al României în 2004! S-a poticnit de Traian Băsescu. În schimb, Cabinetul Adrian Năstase, fiind votat de Parlament la 28 decembrie 2000, a demonstrat o stabilitate și eficiență fără precedent în viața politică post-comunistă din România! Guvernul său a negociat cu succes ridicarea vizelor pentru cetățenii români care călătoreau în Spațiul Schengen. Pe lângă creșterea economică și consolidarea leului, Guvernul său a finalizat negocierile de aderare la Uniunea Europeană și a emis pachetele de legi pentru îndeplinirea reformelor legislative și sociale solicitate de aderarea la UE!Oazu Nantoi, Cotidianul
+
+Dar și justiția asta e o mare pacoste! Țin minte cum l-am cunoscut, pe 6 aprilie 1992, pe Adrian Năstase, – tânărul, frumosul și deșteptul ministru de afaceri externe al României, venit la Chișinău să participe la întrunirea quadrilateră a miniștrilor afacerilor externe ai Republicii Moldova, Rusiei, Ucrainei și, respectiv, al României. Recunosc, el a fost cel mai eficient în apărarea poziției Republicii Moldova la masa de negocieri din punct de vedere al dreptului internațional!Ah, ce carieră politică strălucită a avut acest Adrian Năstase – aproape că a devenit Președinte al României în 2004! S-a poticnit de Traian Băsescu. În schimb, Cabinetul Adrian Năstase, fiind votat de Parlament la 28 decembrie 2000, a demonstrat o stabilitate și eficiență fără precedent în viața politică post-comunistă din România! Guvernul său a negociat cu succes ridicarea vizelor pentru cetățenii români care călătoreau în Spațiul Schengen. Pe lângă creșterea economică și consolidarea leului, Guvernul său a finalizat negocierile de aderare la Uniunea Europeană și a emis pachetele de legi pentru îndeplinirea reformelor legislative și sociale solicitate de aderarea la UE!Oazu Nantoi, Cotidianul
+
+Ah, ce carieră politică strălucită a avut acest Adrian Năstase – aproape că a devenit Președinte al României în 2004! S-a poticnit de Traian Băsescu. În schimb, Cabinetul Adrian Năstase, fiind votat de Parlament la 28 decembrie 2000, a demonstrat o stabilitate și eficiență fără precedent în viața politică post-comunistă din România! Guvernul său a negociat cu succes ridicarea vizelor pentru cetățenii români care călătoreau în Spațiul Schengen. Pe lângă creșterea economică și consolidarea leului, Guvernul său a finalizat negocierile de aderare la Uniunea Europeană și a emis pachetele de legi pentru îndeplinirea reformelor legislative și sociale solicitate de aderarea la UE!Oazu Nantoi, Cotidianul
+
+Oazu Nantoi, Cotidianul

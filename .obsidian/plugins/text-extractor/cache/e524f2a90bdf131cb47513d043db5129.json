@@ -1,1 +1,0 @@
-{"path":".lib/obsidian-templater docs/docs/imgs/templater_user_templates.png","text":"Template n°1 date +\"%A, %d %B %Y\" X today Template n°2 curl \"wttr.in/Paris?format=3\" X weather Template n°3 echo \"l love Templater\" X echo","libVersion":"0.3.2","langs":"eng+fra+rus"}

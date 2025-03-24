@@ -1,0 +1,25 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240705180501/www.jurnaltv.md/news/d4dac87b3aac0986/de-maine-elevii-care-vor-sa-si-urmeze-studiile-intr-un-liceu-din-chisinau-pot-sa-depuna-dosarele-pentru-admitere.html"
+url: "https://www.jurnaltv.md/news/d4dac87b3aac0986/de-maine-elevii-care-vor-sa-si-urmeze-studiile-intr-un-liceu-din-chisinau-pot-sa-depuna-dosarele-pentru-admitere.html"
+language: ro
+title: "De mâine, elevii care vor să-și urmeze studiile într-un liceu din Chișinău pot să depună dosarele pentru admitere"
+publication: '[[JurnalTV]]'
+published: '2024-07-05'
+section: novosti
+description: "De mâine, elevii care vor să-și urmeze studiile într-un liceu din capitală pot să depună dosarele pentru admitere. Procesul de înmatriculare pentru anul școlar 2024-2025 este planificat în 97 de instituții de învățământ secundar din municipiu. Este vorba despre 82 de instituții publice și 15 private, care vor accepta în total 5.346 de elevi, distribuiți în 219 clase."
+---
+
+# De mâine, elevii care vor să-și urmeze studiile într-un liceu din Chișinău pot să depună dosarele pentru admitere
+
+De mâine, elevii care vor să-și urmeze studiile într-un liceu din capitală pot să depună dosarele pentru admitere. Procesul de înmatriculare pentru anul școlar 2024-2025 este planificat în 97 de instituții de învățământ secundar din municipiu. Este vorba despre 82 de instituții publice și 15 private, care vor accepta în total 5.346 de elevi, distribuiți în 219 clase.
+
+De pe 6 până pe 15 iulie, elevii pot depune actele concomitent la trei instituții pe platforma escoala.chisinau.md. Pe 16 iulie va fi organizată proba de concurs pentru instituțiile liceale cu admitere în baza testelor suplimentare, iar în perioada 17-19 iulie se va desfășura concursul în baza dosarelor, ceea ce presupune calcularea mediilor de concurs și stabilirea listei finale a elevilor admiși. Rezultatele vor fi anunțate pe 20 iulie.A doua etapă de depunere a actelor pentru locurile rămase vacante va începe pe 1 august și se va desfășura până pe 4 august. Concursul în baza dosarelor va avea loc pe 5 august, iar pe 6 august vor fi anunțate rezultatele.Pe 10 august va fi prezentat raportul final privind rezultatele sesiunii de admitere în liceu.Conform Metodologiei de admitere a elevilor în învățământul liceal, instituțiile de învățământ stabilesc nota minimă de concurs nu mai mică de 6 pentru liceele cu frecvență, clasele X-XII, și 5 pentru liceele cu frecvență redusă.Pentru acest an, Direcția generală educație, tineret și sport a planificat 219 clase în 97 de instituții. Dintre acestea, 118 la profil umanist cu 2762 de elevi, profilul real - 90 de clase cu 2330 de elevi, profil sport - șase clase cu 140 de elevi și profil arte - cinci clase cu 114 elevi.
+
+A doua etapă de depunere a actelor pentru locurile rămase vacante va începe pe 1 august și se va desfășura până pe 4 august. Concursul în baza dosarelor va avea loc pe 5 august, iar pe 6 august vor fi anunțate rezultatele.Pe 10 august va fi prezentat raportul final privind rezultatele sesiunii de admitere în liceu.Conform Metodologiei de admitere a elevilor în învățământul liceal, instituțiile de învățământ stabilesc nota minimă de concurs nu mai mică de 6 pentru liceele cu frecvență, clasele X-XII, și 5 pentru liceele cu frecvență redusă.Pentru acest an, Direcția generală educație, tineret și sport a planificat 219 clase în 97 de instituții. Dintre acestea, 118 la profil umanist cu 2762 de elevi, profilul real - 90 de clase cu 2330 de elevi, profil sport - șase clase cu 140 de elevi și profil arte - cinci clase cu 114 elevi.
+
+Pe 10 august va fi prezentat raportul final privind rezultatele sesiunii de admitere în liceu.Conform Metodologiei de admitere a elevilor în învățământul liceal, instituțiile de învățământ stabilesc nota minimă de concurs nu mai mică de 6 pentru liceele cu frecvență, clasele X-XII, și 5 pentru liceele cu frecvență redusă.Pentru acest an, Direcția generală educație, tineret și sport a planificat 219 clase în 97 de instituții. Dintre acestea, 118 la profil umanist cu 2762 de elevi, profilul real - 90 de clase cu 2330 de elevi, profil sport - șase clase cu 140 de elevi și profil arte - cinci clase cu 114 elevi.
+
+Conform Metodologiei de admitere a elevilor în învățământul liceal, instituțiile de învățământ stabilesc nota minimă de concurs nu mai mică de 6 pentru liceele cu frecvență, clasele X-XII, și 5 pentru liceele cu frecvență redusă.Pentru acest an, Direcția generală educație, tineret și sport a planificat 219 clase în 97 de instituții. Dintre acestea, 118 la profil umanist cu 2762 de elevi, profilul real - 90 de clase cu 2330 de elevi, profil sport - șase clase cu 140 de elevi și profil arte - cinci clase cu 114 elevi.
+
+Pentru acest an, Direcția generală educație, tineret și sport a planificat 219 clase în 97 de instituții. Dintre acestea, 118 la profil umanist cu 2762 de elevi, profilul real - 90 de clase cu 2330 de elevi, profil sport - șase clase cu 140 de elevi și profil arte - cinci clase cu 114 elevi.

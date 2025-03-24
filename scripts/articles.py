@@ -20,37 +20,47 @@ import shutil  # Add shutil for test directory operations
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Set up defaults
+# Default variables
 DEFAULT_OUTPUT_DIR = "data/raw/articles"
-DEFAULT_CSV_PATH = "data/articles.csv"
-DEFAULT_TIMEOUT = 15
-DEFAULT_RETRIES = 3
-DEFAULT_DELAY = 5  # Delay between requests in seconds
+DEFAULT_CSV_PATH = "data/articles.csv" 
+DEFAULT_TIMEOUT = 15 # Integer (seconds)
+DEFAULT_RETRIES = 3 # Integer
+DEFAULT_DELAY = 5  # Float (seconds)
 
-# Month maps for date conversion
-RUSSIAN_MONTH_MAP = {
-    'ЯНВ': '01', 'ЯНВА': '01', 'ЯНВАРЬ': '01', 'ЯНВАР': '01',
-    'ФЕВ': '02', 'ФЕВР': '02', 'ФЕВРАЛЬ': '02',
-    'МАР': '03', 'МАРТ': '03', 'МАРТА': '03',
-    'АПР': '04', 'АПРЕ': '04', 'АПРЕЛЬ': '04',
-    'МАЙ': '05', 'МАЯ': '05',
-    'ИЮН': '06', 'ИЮНЬ': '06', 'ИЮНЯ': '06',
-    'ИЮЛ': '07', 'ИЮЛЬ': '07', 'ИЮЛЯ': '07',
-    'АВГ': '08', 'АВГУ': '08', 'АВГУСТ': '08',
-    'СЕН': '09', 'СЕНТ': '09', 'СЕНТЯБРЬ': '09',
-    'ОКТ': '10', 'ОКТЯ': '10', 'ОКТЯБРЬ': '10',
-    'НОЯ': '11', 'НОЯБ': '11', 'НОЯБРЬ': '11',
-    'ДЕК': '12', 'ДЕКА': '12', 'ДЕКАБРЬ': '12',
-}
+# Month maps for date scraping + conversion
+def get_russian_month(month_text):
+    """Get month number from Russian month name (case-insensitive)."""
+    RUSSIAN_MONTH_MAP = {
+        'янв': '01', 'янва': '01', 'январь': '01', 'январ': '01',
+        'фев': '02', 'февр': '02', 'февраль': '02',
+        'мар': '03', 'март': '03', 'марта': '03',
+        'апр': '04', 'апре': '04', 'апрель': '04',
+        'май': '05', 'мая': '05',
+        'июн': '06', 'июнь': '06', 'июня': '06',
+        'июл': '07', 'июль': '07', 'июля': '07',
+        'авг': '08', 'авгу': '08', 'август': '08',
+        'сен': '09', 'сент': '09', 'сентябрь': '09',
+        'окт': '10', 'октя': '10', 'октябрь': '10',
+        'ноя': '11', 'нояб': '11', 'ноябрь': '11',
+        'дек': '12', 'дека': '12', 'декабрь': '12',
+    }
+    
+    month_text = month_text.lower()
+    return RUSSIAN_MONTH_MAP.get(month_text, '01')
 
-ROMANIAN_MONTH_MAP = {
-    'ianuarie': '01', 'februarie': '02', 
-    'martie': '03', 'aprilie': '04',
-    'mai': '05', 'iunie': '06', 
-    'iulie': '07', 'august': '08',
-    'septembrie': '09', 'octombrie': '10', 
-    'noiembrie': '11', 'decembrie': '12'
-}
+def get_romanian_month(month_text):
+    """Get month number from Romanian month name (case-insensitive)."""
+    ROMANIAN_MONTH_MAP = {
+        'ianuarie': '01', 'februarie': '02', 
+        'martie': '03', 'aprilie': '04',
+        'mai': '05', 'iunie': '06', 
+        'iulie': '07', 'august': '08',
+        'septembrie': '09', 'octombrie': '10', 
+        'noiembrie': '11', 'decembrie': '12'
+    }
+    
+    month_text = month_text.lower()
+    return ROMANIAN_MONTH_MAP.get(month_text, '01')
 
 def setup_argparse():
     """Set up command line arguments."""
@@ -117,6 +127,7 @@ def get_html(url, timeout, max_retries, delay):
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
     }
     
+    # Retries X number of times
     for attempt in range(max_retries):
         try:
             current_timeout = timeout * 2 if 'archive.org' in url else timeout
@@ -141,7 +152,7 @@ def get_html(url, timeout, max_retries, delay):
     return None
 
 def extract_schema_data(soup):
-    """Extract JSON-LD schema data from the page."""
+    """Extract JSON-LD schema data from the page. Required to get some metadata from particular hosts."""
     schema_data = {}
     schema_scripts = soup.find_all('script', type='application/ld+json')
     
@@ -167,7 +178,7 @@ def extract_schema_data(soup):
     return schema_data
 
 def extract_meta_tags(soup):
-    """Extract metadata from meta tags."""
+    """Extract metadata from your typical html meta tags."""
     meta_data = {}
     
     for meta in soup.find_all('meta'):
@@ -177,7 +188,7 @@ def extract_meta_tags(soup):
             if meta.get(attr):
                 key = f"{attr}:{meta.get(attr)}"
                 break
-                
+        # Get meta content - not actually used but potentially useful as a fallback for article content        
         if key and meta.get('content'):
             meta_data[key] = meta.get('content')
             
@@ -189,6 +200,13 @@ def clean_text(text):
         return ""
     # Remove all line breaks and normalize multiple spaces into a single space
     return re.sub(r'\s+', ' ', text).strip()
+
+def format_text_improvements(content):
+    """Apply additional text formatting improvements."""
+    # Add space after semicolons that are followed by text without space. Required for OCD reasons.
+    content = re.sub(r'(\w):(\w)', r'\1: \2', content)
+    
+    return content
 
 def extract_content(soup, selector, clean_content=True):
     """Extract and clean content from the specified selector."""
@@ -208,34 +226,207 @@ def extract_content(soup, selector, clean_content=True):
             '.sharedaddy', '.jp-relatedposts'
         ]
         
-        for selector in unwanted_selectors:
-            for elem in content_copy.select(selector):
-                elem.decompose()
+        for elem in content_copy.select(selector):
+            elem.decompose()
     
-    # Format paragraphs
+    # Format paragraphss
     paragraphs = []
-    for p in content_copy.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol']):
+    processed_texts = set()  # To keep track of processed text to avoid duplication
+    in_list = False
+    list_items = []
+    
+    for p in content_copy.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li']):
+        # Process any strong elements before getting text
+        is_heading = p.name.startswith('h')
+        
+        # If not a heading, convert any <strong> elements to markdown bold
+        if not is_heading:
+            for strong in p.find_all('strong'):
+                strong_text = strong.get_text().strip()
+                if strong_text:
+                    # Replace the strong element with markdown bold syntax
+                    strong_html = str(strong)
+                    p_html = str(p)
+                    p_html = p_html.replace(strong_html, f"**{strong_text}**")
+                    # Parse the updated HTML back into the paragraph
+                    p = BeautifulSoup(p_html, 'html.parser')
+        
         text = p.get_text(strip=True)
         if not text:
             continue
             
         if p.name == 'h1':
-            # Skip h1 headers entirely as requested
+            # Skip already existing h1 headers entirely so as to avoid duplication when we add title as h1 
             continue
         elif p.name.startswith('h'):
+            # If we were building a list, add it now before the header
+            if in_list and list_items:
+                paragraphs.append("\n".join(list_items))
+                list_items = []
+                in_list = False
+                
             level = int(p.name[1])
-            paragraphs.append(f"{'#' * level} {text}")
+            paragraph = f"{'#' * level} {text}"
+            if paragraph not in processed_texts:
+                paragraphs.append(paragraph)
+                processed_texts.add(paragraph)
+                processed_texts.add(text)  # Also mark the plain text as processed
         elif p.name == 'blockquote':
-            paragraphs.append(f"> {text}")
+            # If we were building a list, add it now before the blockquote
+            if in_list and list_items:
+                paragraphs.append("\n".join(list_items))
+                list_items = []
+                in_list = False
+                
+            # Only add blockquote text in the quote format, don't duplicate as regular paragraph
+            paragraph = f"> {text}"
+            if paragraph not in processed_texts:
+                paragraphs.append(paragraph)
+                processed_texts.add(paragraph)
+                processed_texts.add(text)  # Also mark the non-quoted version as processed
         elif p.name in ['ul', 'ol']:
-            for li in p.find_all('li'):
-                li_text = li.get_text(strip=True)
-                if li_text:
-                    paragraphs.append(f"* {li_text}")
-        else:
-            paragraphs.append(text)
+            # Handle list containers. Processing their items individually to remove ugly line breaks between list items.
+            continue
+        elif p.name == 'li':
+            # Process list item
+            if not in_list:
+                in_list = True
+                # Add an empty list_items to ensure an empty line before the list
+                if paragraphs and not paragraphs[-1].endswith('\n'):
+                    paragraphs.append("")
             
-    return "\n\n".join(paragraphs)
+            if text and text not in processed_texts:
+                list_items.append(f"- {text}")
+                processed_texts.add(text)
+        else:
+            # Regular paragraph
+            # If we were building a list, add it now before the new paragraph
+            if in_list and list_items:
+                paragraphs.append("\n".join(list_items))
+                list_items = []
+                in_list = False
+                # Add an empty line after the list
+                paragraphs.append("")
+                
+            if text not in processed_texts:
+                paragraphs.append(text)
+                processed_texts.add(text)
+    
+    # Add any remaining list items
+    if in_list and list_items:
+        paragraphs.append("\n".join(list_items))
+        # Add an empty line after the list
+        paragraphs.append("")
+    
+    # Join all paragraphs and lint
+    content = "\n\n".join(paragraphs).replace("\n\n\n\n", "\n\n").replace("\n\n\n", "\n\n")
+    content = format_text_improvements(content)
+    
+    return content
+
+def extract_content_with_fallbacks(soup, selectors, process_func=None):
+    """
+    Extract content using multiple selector fallbacks.
+    
+    Args:
+        soup: BeautifulSoup object
+        selectors: List of CSS selectors to try in order
+        process_func: Optional custom processing function for the content element
+        
+    Returns:
+        Processed content string
+    """
+    content = ""
+    content_elem = None
+    
+    # Try each selector in order until we find content
+    for selector in selectors:
+        if isinstance(selector, str):
+            content_elem = soup.select_one(selector)
+        elif callable(selector):
+            # Allow for custom element selection logic
+            content_elem = selector(soup)
+        
+        if content_elem:
+            break
+    
+    # If we found a content element, process it
+    if content_elem:
+        if process_func:
+            # Use custom processing function if provided
+            content = process_func(content_elem)
+        else:
+            # Default processing - extract paragraphs
+            paragraphs = []
+            processed_texts = set()  # Track processed text to avoid duplication
+            in_list = False
+            list_items = []
+            
+            # Process heading elements, paragraphs, blockquotes, and lists
+            for elem in content_elem.find_all(['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 
+                                               'blockquote', 'ul', 'ol', 'li']):
+                text = elem.get_text(strip=True)
+                if text and text not in processed_texts:
+                    if elem.name == 'blockquote':
+                        # If we're in a list, close it before the blockquote
+                        if in_list and list_items:
+                            paragraphs.append("\n".join(list_items))
+                            list_items = []
+                            in_list = False
+                        
+                        paragraph = f"> {text}"
+                        paragraphs.append(paragraph)
+                        processed_texts.add(text)  # Mark both versions as processed
+                        processed_texts.add(paragraph)
+                    elif elem.name.startswith('h'):
+                        # If we're in a list, close it before the heading
+                        if in_list and list_items:
+                            paragraphs.append("\n".join(list_items))
+                            list_items = []
+                            in_list = False
+                        
+                        level = int(elem.name[1])
+                        paragraph = f"{'#' * level} {text}"
+                        paragraphs.append(paragraph)
+                        processed_texts.add(text)  # Mark both versions as processed
+                        processed_texts.add(paragraph)
+                    elif elem.name in ['ul', 'ol']:
+                        # Start a list container - we'll process its items individually
+                        in_list = True
+                        # Ensure there's an empty line before the list starts
+                        if paragraphs and not paragraphs[-1] == "":
+                            paragraphs.append("")
+                        continue
+                    elif elem.name == 'li':
+                        # Process list item
+                        if not in_list:
+                            in_list = True
+                        list_items.append(f"- {text}")
+                        processed_texts.add(text)
+                    else:
+                        # Regular paragraph - if we're in a list, close it
+                        if in_list and list_items:
+                            paragraphs.append("\n".join(list_items))
+                            paragraphs.append("")  # Empty line after list
+                            list_items = []
+                            in_list = False
+                        
+                        paragraphs.append(text)
+                        processed_texts.add(text)
+            
+            # Close any remaining list
+            if in_list and list_items:
+                paragraphs.append("\n".join(list_items))
+                paragraphs.append("")  # Empty line after list
+            
+            # Join all paragraphs with double newlines
+            content = "\n\n".join(p for p in paragraphs if p)
+    
+    # Clean and format the content
+    content = clean_content(content) 
+    content = format_text_improvements(content)
+    
+    return content
 
 def process_gagauznews(soup, article_data):
     """Process gagauznews.com articles."""
@@ -246,7 +437,7 @@ def process_gagauznews(soup, article_data):
     # Extract title
     if soup.title:
         title = soup.title.get_text()
-        # Remove "– Новости Гагаузии | Gagauznews.com"
+        # Clean title
         title = re.sub(r'\s*–\s*Новости Гагаузии\s*\|\s*Gagauznews\.com', '', title)
         article_data['title'] = clean_text(title)
     
@@ -262,7 +453,7 @@ def process_gagauznews(soup, article_data):
         if author_elem:
             article_data['author'] = clean_text(author_elem.get_text())
     
-    # Extract section
+    # Extract section from the ld+json
     if schema_data and 'articleSection' in schema_data:
         article_data['section'] = schema_data['articleSection']
     
@@ -280,53 +471,78 @@ def process_gagauznews(soup, article_data):
         else:
             article_data['keywords'] = keywords
     
-    # Extract content
-    content_elem = soup.select_one('.single-body.entry-content')
-    if content_elem:
-        # Process first paragraph with strong element
-        first_p = content_elem.find('p')
-        paragraphs = []
-        
-        # Check if first paragraph has a strong element
-        if first_p and first_p.find('strong'):
-            strong_elem = first_p.find('strong')
-            strong_text = strong_elem.get_text().strip()
-            
-            if strong_text:
-                # Add bolded text
-                paragraphs.append(f"**{strong_text}** {first_p.get_text().replace(strong_text, '', 1).strip()}")
-                
-                # Remove first paragraph so it's not processed again
-                first_p.decompose()
-        
-        # Continue with regular content extraction
-        content_html = str(content_elem)
-        content_soup = BeautifulSoup(content_html, 'html.parser')
-        
-        # Clean and format content
-        formatted_content = extract_content(content_soup, 'body')
-        
-        # If we processed a first paragraph with strong, prepend it
-        if paragraphs:
-            formatted_content = paragraphs[0] + "\n\n" + formatted_content
-        
-        # Remove "Поделиться" and everything after it
-        share_match = re.search(r'#+\s*Поделиться.*', formatted_content, re.DOTALL)
-        if share_match:
-            formatted_content = formatted_content[:share_match.start()].strip()
-        
-        article_data['content'] = formatted_content
-    else:
-        # Fallback to regular content extraction
-        content = extract_content(soup, '.single-body.entry-content')
-        
-        # Remove "Поделиться" and everything after it
-        share_match = re.search(r'#+\s*Поделиться.*', content, re.DOTALL)
-        if share_match:
-            content = content[:share_match.start()].strip()
-        
-        article_data['content'] = content
+    # Simplified content extraction
+    content_elem = soup.select_one('.single-body--content')
     
+    if content_elem:
+        # Create a more robust approach to extract paragraphs
+        paragraphs = []
+        in_list = False
+        list_items = []
+        
+        for elem in content_elem.find_all(['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li']):
+            text = elem.get_text(strip=True)
+            if text:
+                if elem.name == 'blockquote':
+                    # If we're in a list, close it before the blockquote
+                    if in_list and list_items:
+                        paragraphs.append("\n".join(list_items))
+                        list_items = []
+                        in_list = False
+                    
+                    paragraphs.append(f"> {text}")
+                elif elem.name.startswith('h'):
+                    # If we're in a list, close it before the heading
+                    if in_list and list_items:
+                        paragraphs.append("\n".join(list_items))
+                        list_items = []
+                        in_list = False
+                    
+                    level = int(elem.name[1])
+                    paragraphs.append(f"{'#' * level} {text}")
+                elif elem.name in ['ul', 'ol']:
+                    # Start a list container - we'll process its items individually
+                    in_list = True
+                    # Ensure there's an empty line before the list starts
+                    if paragraphs and not paragraphs[-1] == "":
+                        paragraphs.append("")
+                    continue
+                elif elem.name == 'li':
+                    # Process list item
+                    if not in_list:
+                        in_list = True
+                    list_items.append(f"- {text}")
+                else:
+                    # Regular paragraph - if we're in a list, close it
+                    if in_list and list_items:
+                        paragraphs.append("\n".join(list_items))
+                        paragraphs.append("")  # Empty line after list
+                        list_items = []
+                        in_list = False
+                    
+                    paragraphs.append(text)
+        
+        # Close any remaining list
+        if in_list and list_items:
+            paragraphs.append("\n".join(list_items))
+            paragraphs.append("")  # Empty line after list
+        
+        # Join all paragraphs with double newlines
+        content = "\n\n".join(paragraphs).replace("\n\n\n\n", "\n\n").replace("\n\n\n", "\n\n")
+    else:
+        # Fallback to more general extraction
+        content = extract_content(soup, 'article')
+        if not content:
+            content = extract_content(soup, '.entry-content')
+    
+    # Clean any unwanted content sections
+    content = clean_content(content)
+    
+    # Apply formatting improvements
+    content = format_text_improvements(content)
+    
+    article_data['content'] = content
+
     # Set publication name
     article_data['publication'] = "Gagauznews"
     
@@ -345,21 +561,23 @@ def process_gagauzinfo(soup, article_data):
         article_data['title'] = clean_text(soup.title.get_text())
     
     # Extract published date
+    # Gagauznews doesn't include this in metadata or schema, 
+    # so we have to parse a specific element 
+    # (and convert from russian DD MMMM YYYY format)
     date_elem = soup.select_one('.info-item.info-time')
     if date_elem:
         date_text = date_elem.get_text(strip=True)
         try:
             parts = date_text.split()
             if len(parts) >= 3:
-                day = parts[0].zfill(2)  # Ensure 2-digit day
-                month_upper = parts[1].upper()
-                month = RUSSIAN_MONTH_MAP.get(month_upper, '01')
+                day = parts[0].zfill(2)  # Ensure 2-digit day a la ISO
+                month = get_russian_month(parts[1])  # Use the month map
                 year = parts[2]
                 article_data['published'] = f"{year}-{month}-{day}"
         except Exception as e:
             logging.error(f"Error parsing date '{date_text}': {e}")
     
-    # Extract section from URL
+    # Extract the news section from the URL with a simple regex match
     url_path = urlparse(article_data['url']).path
     news_match = re.search(r'/news/([^/]+)/', url_path)
     if news_match:
@@ -370,35 +588,43 @@ def process_gagauzinfo(soup, article_data):
     if desc_elem:
         article_data['description'] = clean_text(desc_elem.get_text())
     
-    # Extract content
+    # Extract content from the .content-news element
     content_elem = soup.select_one('.content-news')
     if content_elem:
-        # Find the h3 with class article-title
-        h3_title = content_elem.select_one('h3.article-title')
+        # Get content as paragraphs
         paragraphs = []
         
-        # Convert h3.article-title to bolded paragraph
+        # Special handling for the leading paragraph
+        # Strip h3 and make bold to be more markdown spec
+        h3_title = content_elem.select_one('h3.article-title')
         if h3_title:
-            title_text = h3_title.get_text().strip()
-            if title_text:
-                paragraphs.append(f"**{title_text}**")
-                h3_title.decompose()  # Remove h3 so it's not processed again
+            h3_text = h3_title.get_text().strip()
+            if h3_text:
+                paragraphs.append(f"**{h3_text}**")
         
-        # Get the rest of the content
-        content_html = str(content_elem)
-        content_soup = BeautifulSoup(content_html, 'html.parser')
+        # Get all other paragraphs
+        for p in content_elem.find_all('p'):
+            # Skip if this is inside the h3 we already processed
+            if h3_title and h3_title.find(p):
+                continue
+                
+            text = p.get_text().strip()
+            if text:
+                paragraphs.append(text)
         
-        # Extract formatted content
-        formatted_content = extract_content(content_soup, 'body')
-        
-        # Add the bolded h3 paragraph at the beginning if it exists
-        if paragraphs:
-            formatted_content = paragraphs[0] + "\n\n" + formatted_content
-        
-        article_data['content'] = formatted_content
+        article_data['content'] = "\n\n".join(paragraphs)
     else:
-        # Fallback to regular extraction
-        article_data['content'] = extract_content(soup, '.content-news')
+        # Try fallback: use inner text of .content-news > .block-content
+        block_content = soup.select_one('.content-news > .block-content')
+        if block_content:
+            # Get the inner text and split by newlines
+            inner_text = block_content.get_text(strip=True)
+            # Convert any sequence of whitespace including newlines to a proper paragraph break
+            paragraphs = re.split(r'\s*\n\s*', inner_text)
+            # Filter out empty paragraphs and join with double newlines
+            article_data['content'] = "\n\n".join(p.strip() for p in paragraphs if p.strip())
+        else:
+            article_data['content'] = ""
     
     # Set publication name
     article_data['publication'] = "Gagauzinfo"
@@ -416,11 +642,12 @@ def process_jurnaltv(soup, article_data):
     # Extract title
     if soup.title:
         title = soup.title.get_text()
-        # Remove " | JurnalTV.md" from the end of title
+        # Clean title
         title = re.sub(r'\s*\|\s*JurnalTV\.md\s*$', '', title)
         article_data['title'] = clean_text(title)
     
     # Extract published date
+    # Same story as with Gagauznews, but in Romanian this time
     date_elem = soup.select_one('.product-comment')
     if date_elem:
         date_text = date_elem.get_text(strip=True)
@@ -429,14 +656,14 @@ def process_jurnaltv(soup, article_data):
             match = re.search(r'(\d{1,2})\s+([a-zăîâșț]+)\s+(\d{4})', date_text, re.IGNORECASE)
             if match:
                 day = match.group(1).zfill(2)
-                month_name = match.group(2).lower()
-                month = ROMANIAN_MONTH_MAP.get(month_name, '01')
+                month_name = match.group(2)
+                month = get_romanian_month(month_name)  # Use the month map
                 year = match.group(3)
                 article_data['published'] = f"{year}-{month}-{day}"
         except Exception as e:
             logging.error(f"Error parsing date '{date_text}': {e}")
     
-    # Extract section
+    # Extract section from the href which links to /category/<category>/
     category_link = soup.find('a', href=re.compile(r'/category/([^/]+)'))
     if category_link:
         section_match = re.search(r'/category/([^/]+)', category_link['href'])
@@ -449,26 +676,91 @@ def process_jurnaltv(soup, article_data):
     elif 'property:og:description' in meta_data:
         article_data['description'] = meta_data['property:og:description']
     
-    # Extract content - modified approach
-    lead_elem = soup.select_one('.mb-3.pb-1.text-white.lead')
-    content_elems = soup.select('.mb-3.pb-1.text-white:not(.lead)')
+    # Custom processing function for JurnalTV content - improved to handle <em> tags
+    def process_jurnaltv_content(content_elem):
+        paragraphs = []
+        processed_texts = set()  # Track processed text to avoid duplication
+        
+        # Process both lead paragraph and other content elements
+        for elem in content_elem.find_all(['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li', 'div.lead']):
+            # Special handling for paragraphs with embedded elements like <em>
+            if elem.name == 'p' and elem.find('em'):
+                # Need to rebuild the paragraph text preserving formatting
+                paragraph_text = ""
+                for content in elem.contents:
+                    if isinstance(content, str):
+                        paragraph_text += content.strip()
+                    elif content.name == 'em':
+                        em_text = content.get_text().strip()
+                        if em_text:
+                            paragraph_text += f"*{em_text}*"
+                
+                paragraph_text = paragraph_text.strip()
+                if paragraph_text and paragraph_text not in processed_texts:
+                    paragraphs.append(paragraph_text)
+                    processed_texts.add(paragraph_text)
+                continue
+            
+            text = elem.get_text(strip=True)
+            
+            # Skip if empty or already processed
+            if not text or text in processed_texts:
+                continue
+                
+            processed_texts.add(text)
+            
+            # Handle based on element type
+            if elem.name == 'blockquote':
+                paragraph = f"> {text}"
+                paragraphs.append(paragraph)
+                processed_texts.add(paragraph)  # Mark the formatted version as processed too
+            elif elem.name.startswith('h'):
+                level = int(elem.name[1])
+                paragraph = f"{'#' * level} {text}"
+                paragraphs.append(paragraph)
+                processed_texts.add(paragraph)  # Mark the formatted version as processed too
+            elif elem.name == 'li':
+                paragraphs.append(f"- {text}")
+            elif 'lead' in elem.get('class', []):
+                # Make lead paragraphs bold
+                paragraphs.append(f"**{text}**") 
+            else:
+                paragraphs.append(text)
+        
+        # Join all paragraphs with double newlines
+        return "\n\n".join(p for p in paragraphs if p)
     
-    paragraphs = []
+    # Define a custom selector function
+    def content_selector(soup):
+        article_body = soup.select_one('.article-body')
+        if article_body:
+            return article_body
+            
+        # Alternative approach with lead and content
+        lead_elem = soup.select_one('.mb-3.pb-1.text-white.lead')
+        content_elems = soup.select('.mb-3.pb-1.text-white:not(.lead)')
+        
+        if lead_elem or content_elems:
+            wrapper = soup.new_tag('div')
+            if lead_elem:
+                wrapper.append(lead_elem)
+            for elem in content_elems:
+                wrapper.append(elem)
+            return wrapper
+            
+        return None
     
-    # Process lead paragraph
-    if lead_elem:
-        lead_text = lead_elem.get_text(strip=True)
-        if lead_text:
-            paragraphs.append(f"**{lead_text}**")
+    # Extract content with fallbacks
+    content = extract_content_with_fallbacks(
+        soup,
+        [
+            content_selector,        # Custom selector combining approaches
+            '.mb-7.pb-1'            # Fallback selector
+        ],
+        process_jurnaltv_content    # Custom processing function
+    )
     
-    # Process the rest of content elements
-    for elem in content_elems:
-        text = elem.get_text(strip=True)
-        if text:
-            paragraphs.append(text)
-    
-    # Join all paragraphs
-    article_data['content'] = "\n\n".join(paragraphs)
+    article_data['content'] = content
     
     # Set publication name
     article_data['publication'] = "JurnalTV"
@@ -486,7 +778,10 @@ def process_kp_media(soup, article_data):
     
     # Extract title
     if soup.title:
-        article_data['title'] = clean_text(soup.title.get_text())
+        title = soup.title.get_text()
+        # Remove " - MD.KP.MEDIA" from the end of title
+        title = re.sub(r'\s*-\s*MD\.KP\.MEDIA\s*$', '', title)
+        article_data['title'] = clean_text(title)
     
     # Extract published date
     if 'property:article:published_time' in meta_data:
@@ -495,9 +790,9 @@ def process_kp_media(soup, article_data):
     # Extract author
     if 'property:article:author' in meta_data:
         author = meta_data['property:article:author']
-        # Clean the author name
+        # Clean the author name to remove any vertical bar characters
         author = re.sub(r'\s*\|.*', '', author).strip()
-        # Convert to title case
+        # Convert to title case for consistency (rather than First LAST)
         author = ' '.join(word.capitalize() for word in author.split())
         article_data['author'] = author
     
@@ -522,7 +817,47 @@ def process_kp_media(soup, article_data):
         article_data['keywords'] = [k.strip() for k in meta_data['name:keywords'].split(',')]
     
     # Extract content
-    article_data['content'] = extract_content(soup, '.content-body')
+    content = ""
+    
+    # Try find() with data attribute. 
+    # Since they don't usually use an html class, we have to search for a specific data attribute
+    content_elem = soup.find(attrs={"data-gtm-el": "content-body"})
+    if content_elem:
+        # Extract text from paragraphs directly
+        paragraphs = []
+        for p in content_elem.find_all(['p', 'h2', 'h3', 'h4', 'blockquote']):
+            text = p.get_text().strip()
+            if text:
+                if p.name == 'blockquote':
+                    paragraphs.append(f"> {text}")
+                elif p.name.startswith('h'):
+                    level = int(p.name[1])
+                    paragraphs.append(f"{'#' * level} {text}")
+                else:
+                    paragraphs.append(text)
+        
+        content = "\n\n".join(paragraphs)
+    
+    # If that fails, get desperate and try a class selector 
+    if not content:
+        content_elem = soup.select_one('.content-body')
+        if content_elem:
+            # Extract text from paragraphs
+            paragraphs = []
+            for p in content_elem.find_all(['p', 'h2', 'h3', 'h4', 'blockquote']):
+                text = p.get_text().strip()
+                if text:
+                    if p.name == 'blockquote':
+                        paragraphs.append(f"> {text}")
+                    elif p.name.startswith('h'):
+                        level = int(p.name[1])
+                        paragraphs.append(f"{'#' * level} {text}")
+                    else:
+                        paragraphs.append(text)
+            
+            content = "\n\n".join(paragraphs)
+    
+    article_data['content'] = content
     
     # Set publication name
     article_data['publication'] = "KP Media Moldova"
@@ -540,7 +875,10 @@ def process_nokta(soup, article_data):
     
     # Extract title
     if soup.title:
-        article_data['title'] = clean_text(soup.title.get_text())
+        title = soup.title.get_text()
+        # Remove "- Nokta" or "— Nokta" from the title
+        title = re.sub(r'\s*[-—]\s*Nokta\s*$', '', title)
+        article_data['title'] = clean_text(title)
     
     # Extract published date
     if schema_data and 'datePublished' in schema_data:
@@ -573,8 +911,48 @@ def process_nokta(soup, article_data):
         else:
             article_data['keywords'] = keywords
     
-    # Extract content
-    article_data['content'] = extract_content(soup, '.single-post__content')
+    # Custom processing function for Nokta content
+    def process_nokta_content(content_elem):
+        paragraphs = []
+        for elem in content_elem.find_all(['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li']):
+            text = elem.get_text(strip=True)
+            if text:
+                if elem.name == 'blockquote':
+                    paragraphs.append(f"> {text}")
+                elif elem.name.startswith('h'):
+                    level = int(elem.name[1])
+                    paragraphs.append(f"{'#' * level} {text}")
+                elif elem.name == 'li':
+                    paragraphs.append(f"- {text}")
+                else:
+                    paragraphs.append(text)
+        
+        content = "\n\n".join(paragraphs)
+        
+        # Remove lines containing just "nokta" and everything after
+        nokta_match = re.search(r'(?m)^\s*nokta\s*$.*', content, re.DOTALL) 
+        if nokta_match:
+            content = content[:nokta_match.start()].strip()
+        
+        # Remove lines containing "Читайте также:" and everything after
+        related_match = re.search(r'(?m)^\s*Читайте также:\s*$.*', content, re.DOTALL)
+        if related_match:
+            content = content[:related_match.start()].strip()
+            
+        return content
+    
+    # Extract content with fallbacks
+    content = extract_content_with_fallbacks(
+        soup,
+        [
+            '.single-post__content',  # Primary selector
+            'article.post',          # First fallback
+            '.entry-content'         # Second fallback
+        ],
+        process_nokta_content
+    )
+    
+    article_data['content'] = content
     
     # Set publication name
     article_data['publication'] = "Nokta"
@@ -591,14 +969,17 @@ def process_evedomosti(soup, article_data):
     
     # Extract title
     if soup.title:
-        article_data['title'] = clean_text(soup.title.get_text())
+        title = clean_text(soup.title.get_text())
+        # Remove " - Молдавские Ведомости" from the end of title
+        title = re.sub(r'\s*-\s*Молдавские Ведомости\s*$', '', title)
+        article_data['title'] = title
     
     # Extract published date
     date_elem = soup.select_one('.date.float-left')
     if date_elem:
         date_text = date_elem.get_text(strip=True)
         try:
-            # Format: "DD.MM.YYYY, HH:mm"
+            # Convert from 'DD.MM.YYYY, HH:mm' format
             date_obj = datetime.strptime(date_text, "%d.%m.%Y, %H:%M")
             article_data['published'] = date_obj.strftime("%Y-%m-%dT%H:%M")
         except Exception as e:
@@ -613,8 +994,55 @@ def process_evedomosti(soup, article_data):
     if 'name:description' in meta_data:
         article_data['description'] = meta_data['name:description']
     
-    # Extract content
-    article_data['content'] = extract_content(soup, '.article-content')
+    # Custom processing function for Evedomosti content
+    def process_evedomosti_content(content_elem):
+        paragraphs = []
+        processed_texts = set()  # Track processed text to avoid duplication
+        
+        # Include div elements along with other content elements for evedomosti
+        for p in content_elem.find_all(['p', 'div', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li']):
+            # Skip divs that are containers for other content we'll process separately
+            if p.name == 'div' and (p.find(['p', 'h2', 'h3', 'h4', 'h5', 'h6', 'blockquote', 'ul', 'ol', 'li']) is not None):
+                continue
+                
+            text = p.get_text(strip=True)
+            if text and text not in processed_texts:
+                processed_texts.add(text)
+                if p.name == 'blockquote':
+                    paragraph = f"> {text}"
+                    paragraphs.append(paragraph)
+                    processed_texts.add(paragraph)  # Also mark the quoted version as processed
+                elif p.name.startswith('h'):
+                    level = int(p.name[1])
+                    paragraph = f"{'#' * level} {text}"
+                    paragraphs.append(paragraph)
+                    processed_texts.add(paragraph)  # Also mark the headed version as processed
+                elif p.name == 'li':
+                    paragraphs.append(f"- {text}")
+                else:
+                    paragraphs.append(text)
+        
+        content = "\n\n".join(paragraphs)
+        
+        # Fix line breaks within paragraphs by removing single line breaks
+        # But preserve paragraph breaks (double line breaks)
+        content = re.sub(r'(?<!\n)\n(?!\n)', ' ', content)
+        
+        return content
+    
+    # Extract content with fallbacks
+    content = extract_content_with_fallbacks(
+        soup,
+        [
+            '.article-content',               # Primary selector
+            '.entry-content > .three-fourth.first',  # New fallback specific to evedomosti
+            'article',                        # First general fallback
+            '.entry-content'                  # Second general fallback
+        ],
+        process_evedomosti_content
+    )
+    
+    article_data['content'] = content
     
     # Set publication name
     article_data['publication'] = "Moldavskie Vedomosti"
@@ -623,6 +1051,98 @@ def process_evedomosti(soup, article_data):
     article_data['language'] = "ru"
     
     return article_data
+
+def clean_content(content):
+    """Clean content by removing unwanted sections."""
+    # Remove "Читайте также:" and everything after it when it starts a line
+    related_match = re.search(r'(?m)^\s*Читайте также:.*$.*', content, re.DOTALL)
+    if related_match:
+        content = content[:related_match.start()].strip()
+    
+    # Remove "Читайте по теме:" and everything after it
+    related_topic_match = re.search(r'(?m)^\s*Читайте по теме:\s*$.*', content, re.DOTALL)
+    if related_topic_match:
+        content = content[:related_topic_match.start()].strip()
+    
+    # Remove "Поделиться" and everything after it (as header, bold, or followed by semicolon)
+    share_match = re.search(r'(?m)^\s*(#+\s*|[*_]{2}|\s*)Поделиться(:|[*_]{2}|\s*)$.*', content, re.DOTALL)
+    if share_match:
+        content = content[:share_match.start()].strip()
+    
+    # Remove "Еще больше новостей - в Телеграм-канале!" and everything after it
+    telegram_match = re.search(r'(?m)^\s*Еще больше новостей - в Телеграм-канале!.*', content, re.DOTALL)
+    if telegram_match:
+        content = content[:telegram_match.start()].strip()
+    
+    # Remove "Читайте подробнее" and everything after it
+    details_match = re.search(r'(?m)^\s*Читайте подробнее\s*$.*', content, re.DOTALL)
+    if details_match:
+        content = content[:details_match.start()].strip()
+    
+    # Remove "Gagauznews — еще больше важных и интересных публикаций в соцсетях:" and everything after it
+    gagauznews_socials_match = re.search(r'(?m)^\s*>\s*Gagauznews — еще больше важных и интересных публикаций в соцсетях:\s*$.*', content, re.DOTALL)
+    if gagauznews_socials_match:
+        content = content[:gagauznews_socials_match.start()].strip()
+    
+    # Remove "Другие ссылки:" and everything after it
+    other_links_match = re.search(r'(?m)^\s*Другие ссылки:\s*$.*', content, re.DOTALL)
+    if other_links_match:
+        content = content[:other_links_match.start()].strip()
+    
+    # Remove lines beginning with "Источник:" without removing content after it
+    content = re.sub(r'(?m)^\s*Источник:.*$', '', content)
+    
+    # Remove duplicate blockquotes - look for exact repeated paragraphs where one is a blockquote
+    lines = content.split('\n\n')
+    cleaned_lines = []
+    seen_texts = set()
+    
+    for line in lines:
+        if line.startswith('> '):
+            # This is a blockquote - extract the text without the '> ' prefix
+            quote_text = line[2:]
+            if quote_text in seen_texts:
+                # Skip this blockquote as we've already seen this text
+                continue
+            seen_texts.add(quote_text)
+            cleaned_lines.append(line)
+        else:
+            # This is regular text - add it if we haven't seen it before
+            if line not in seen_texts:
+                seen_texts.add(line)
+                cleaned_lines.append(line)
+            # Also check if this is a duplicate of a blockquote (without the '> ' prefix)
+            elif not any(f"> {line}" == cleaned_item for cleaned_item in cleaned_lines):
+                # If it's not a duplicate of an existing blockquote, keep it
+                cleaned_lines.append(line)
+    
+    # Rejoin the cleaned content
+    content = '\n\n'.join(cleaned_lines)
+    
+    # Fix markdown lists - remove empty lines between list items
+    # Split content into lines
+    lines = content.split('\n')
+    cleaned_lines = []
+    i = 0
+    while i < len(lines):
+        cleaned_lines.append(lines[i])
+        # Check if we have a list item followed by an empty line and then another list item
+        if (i < len(lines) - 2 and 
+            lines[i].strip().startswith('- ') and 
+            lines[i+1].strip() == '' and 
+            lines[i+2].strip().startswith('- ')):
+            # Skip the empty line
+            i += 2
+        else:
+            i += 1
+    
+    # Rejoin with newlines
+    content = '\n'.join(cleaned_lines)
+    
+    # Clean up any double newlines that might have been created
+    content = re.sub(r'\n{3,}', '\n\n', content)
+    
+    return content
 
 def process_article(article, args, output_dir):
     """Process a single article: fetch, extract metadata, and save to markdown."""
@@ -657,7 +1177,7 @@ def process_article(article, args, output_dir):
     # Parse HTML
     soup = BeautifulSoup(html_content, 'html.parser')
     
-    # Initialize article data with basic info
+    # Initialise article data with basic details
     article_data = {
         'site': host,
         'archive': archive_url,
@@ -688,7 +1208,7 @@ def process_article(article, args, output_dir):
     for key, value in article_data.items():
         article[key] = value
     
-    # Save article to markdown file
+    # Save the scraped article to a markdown file
     save_markdown(article_data, output_path)
     
     # Add a small delay to avoid overloading the server
@@ -710,7 +1230,7 @@ def save_markdown(article_data, output_path):
     title = clean_text(article_data.get('title', 'Untitled'))
     frontmatter_data['title'] = title
     
-    # Format publication
+    # Insert publication
     publication_name = article_data.get('publication', '')
     frontmatter_data['publication'] = f"[[{publication_name}]]"
     
@@ -718,12 +1238,12 @@ def save_markdown(article_data, output_path):
     if 'published' in article_data and article_data['published']:
         frontmatter_data['published'] = article_data['published']
     
-    # Add optional fields if they exist
+    # Add some extra fields if they exist
     for field in ['author', 'section']:
         if field in article_data and article_data[field]:
             frontmatter_data[field] = article_data[field]
     
-    # Handle description separately to ensure no linebreaks
+    # Format description, removing any line breaks.
     if 'description' in article_data and article_data['description']:
         frontmatter_data['description'] = clean_text(article_data['description'])
     
@@ -731,8 +1251,9 @@ def save_markdown(article_data, output_path):
     if 'keywords' in article_data and article_data['keywords']:
         keywords = article_data['keywords']
         if isinstance(keywords, str):
-            keywords = [kw.strip() for kw in keywords.split(',')]
-        frontmatter_data['keywords'] = [f"[[{kw}]]" for kw in keywords]
+            frontmatter_data['keywords'] = [f"[[{kw.strip()}]]" for kw in keywords.split(',')]
+        else:
+            frontmatter_data['keywords'] = [f"[[{kw}]]" for kw in keywords]
     
     # Set up custom YAML representer for quoted strings
     class QuotedString(str):
@@ -759,16 +1280,51 @@ def save_markdown(article_data, output_path):
                 frontmatter_data, 
                 allow_unicode=True, 
                 default_flow_style=False,
-                width=10000,  # Set very wide width to prevent line wrapping
+                width=10000,  # Setting a very wide line width to prevent line wrapping
                 sort_keys=False
             )
             f.write(yaml_content)
             f.write('---\n\n')
             
+            # Add title as a h1 heading
+            f.write(f"# {title}\n\n")
+            
             # Process content to remove any remaining h1 tags
             content = article_data.get('content', '')
             # Remove any Markdown h1 headers (lines starting with #)
             content = re.sub(r'(?m)^# .*$\n?', '', content)
+            
+            # Fix line breaks within paragraphs for evedomosti
+            if article_data.get('site') == 'evedomosti.md':
+                content = re.sub(r'(?<!\n)\n(?!\n)', ' ', content)
+            
+            # Clean the content to remove unwanted sections and fix formatting
+            content = clean_content(content)
+            
+            # Final check for duplicate paragraphs where one is a blockquote
+            # This ensures no duplication regardless of the order they appear in
+            lines = content.split('\n\n')
+            final_lines = []
+            seen_texts = set()
+            
+            for line in lines:
+                if line.startswith('> '):
+                    # This is a blockquote
+                    quote_text = line[2:]
+                    if quote_text not in seen_texts:
+                        seen_texts.add(quote_text)
+                        final_lines.append(line)
+                else:
+                    # Regular text
+                    if line not in seen_texts and f"> {line}" not in final_lines:
+                        seen_texts.add(line)
+                        final_lines.append(line)
+            
+            content = "\n\n".join(final_lines)
+            
+            # Apply formatting improvements
+            content = format_text_improvements(content)
+            
             f.write(content)
             
         logging.info(f"Saved article to {output_path}")
@@ -832,7 +1388,7 @@ def main():
         test_csv_path = os.path.join(test_dir, "test_articles.csv")
         args.output = test_dir
         
-        # Delete test directory if it exists
+        # Delete test directory if it already exists for a clean slate
         if os.path.exists(test_dir):
             logging.info(f"Deleting existing test directory: {test_dir}")
             shutil.rmtree(test_dir)

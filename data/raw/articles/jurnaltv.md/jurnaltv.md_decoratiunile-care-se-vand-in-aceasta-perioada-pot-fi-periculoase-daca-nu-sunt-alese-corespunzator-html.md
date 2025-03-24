@@ -1,0 +1,37 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240307014737/www.jurnaltv.md/news/a998ddfd58a1783b/decoratiunile-care-se-vand-in-aceasta-perioada-pot-fi-periculoase-daca-nu-sunt-alese-corespunzator.html"
+url: "https://www.jurnaltv.md/news/a998ddfd58a1783b/decoratiunile-care-se-vand-in-aceasta-perioada-pot-fi-periculoase-daca-nu-sunt-alese-corespunzator.html"
+language: ro
+title: "Decorațiunile care se vând în această perioadă pot fi periculoase, dacă nu sunt alese corespunzător"
+publication: '[[JurnalTV]]'
+published: '2021-12-09'
+section: novosti
+description: "În febra pregătirilor pentru sărbătorile de iarnă, mulți oameni uită de siguranță și sănătate. Decorațiunile, care apar acum cu duiumul, pot fi atrăgătoare, dar și periculoase în același timp. Noi am mers la Piața Centrală, alături de un specialist de la Agenția Protecția Consumatorului să vedem cine și ce vinde la tarabă. Vestea s-a răspândit imediat printre vânzătorii de obiecte pentru decorațiuni în noaptea de Revelion."
+---
+
+# Decorațiunile care se vând în această perioadă pot fi periculoase, dacă nu sunt alese corespunzător
+
+În febra pregătirilor pentru sărbătorile de iarnă, mulți oameni uită de siguranță și sănătate. Decorațiunile, care apar acum cu duiumul, pot fi atrăgătoare, dar și periculoase în același timp. Noi am mers la Piața Centrală, alături de un specialist de la Agenția Protecția Consumatorului să vedem cine și ce vinde la tarabă. Vestea s-a răspândit imediat printre vânzătorii de obiecte pentru decorațiuni în noaptea de Revelion.
+
+Primele neconformități nu s-au lăsat așteptate. Când au aflat că a venit echipa Jurnal TV, mai mulți comercianți au stins luminițele și au plecat care și încotro.
+
+PETRU MOLCEANU, inspector principal, Direcția relații cu consumatorii a APCSP:*"Este interzisă verificarea acestor luminițe atunci când ele sunt  împachetate. Trebuie dezambalate și apoi verificate la o priză. - Așa  cum stau ele aici, este corect? - Nu, nu este corect așa."*
+
+Nelipsitele jucării, care înfrumusețează Pomul de Crăciun trebuie  să conțină un certificat sanitar. Adesea sunt importate din China, iar  pe lângă mirosul înțepător, acestea pot emana plumb și alte metale  grele, care sunt toxice. Inspectorul zice că declarațiile de  conformitate sunt o raritate la piață.
+
+Eticheta de pe ambalajul produsului trebuie să fie ușor descifrabilă și să fie scrisă în limba română.
+
+PETRU MOLCEANU, inspector principal la Direcția Relații cu consumatorii a APCSP:*"Uitați-vă, asta e zăpada artificială, instrucțiunea este pe ea, dar să  citească nu știu cine, pentru că e așa de mărunt și trebuie să citești  cu lupa. Ei trebuie să pună traducerea, dacă ea nu este. Nu  toți respectă chestia asta. La astea nu văd, la niciuna."*
+
+Prețul produselor este pus cel mai adesea la ochi.Oamenii trebuie să fie deosebit de atenți când vor să cumpere instalații de luminat.Aveți instrucțiunea de utilizare a acestor globuri? - Nu.- De ce? - Păi,  este priza, le pui în priză și gata. - Ce distanță este de la primul  bec până la priză? - Jumătate de metru. - Dar cât trebuie să fie? -  Știu - doi metri. - Nu. Trebuie să fie un metru jumătate!Explicația comercianților este una - produsele care dețin  certificate de calitate sunt mult mai scumpe. De aceea, preferă să le ia  pe cele mai ieftine.În febra pregătirilor pentru sărbătorile de iarnă, unii se lasă  ademeniți de prețurile atractive și de aspectul exterior al  decorațiunilor, celelalte rămânând în umbră.Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.
+
+Oamenii trebuie să fie deosebit de atenți când vor să cumpere instalații de luminat.Aveți instrucțiunea de utilizare a acestor globuri? - Nu.- De ce? - Păi,  este priza, le pui în priză și gata. - Ce distanță este de la primul  bec până la priză? - Jumătate de metru. - Dar cât trebuie să fie? -  Știu - doi metri. - Nu. Trebuie să fie un metru jumătate!Explicația comercianților este una - produsele care dețin  certificate de calitate sunt mult mai scumpe. De aceea, preferă să le ia  pe cele mai ieftine.În febra pregătirilor pentru sărbătorile de iarnă, unii se lasă  ademeniți de prețurile atractive și de aspectul exterior al  decorațiunilor, celelalte rămânând în umbră.Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.
+
+Aveți instrucțiunea de utilizare a acestor globuri? - Nu.- De ce? - Păi,  este priza, le pui în priză și gata. - Ce distanță este de la primul  bec până la priză? - Jumătate de metru. - Dar cât trebuie să fie? -  Știu - doi metri. - Nu. Trebuie să fie un metru jumătate!Explicația comercianților este una - produsele care dețin  certificate de calitate sunt mult mai scumpe. De aceea, preferă să le ia  pe cele mai ieftine.În febra pregătirilor pentru sărbătorile de iarnă, unii se lasă  ademeniți de prețurile atractive și de aspectul exterior al  decorațiunilor, celelalte rămânând în umbră.Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.
+
+Explicația comercianților este una - produsele care dețin  certificate de calitate sunt mult mai scumpe. De aceea, preferă să le ia  pe cele mai ieftine.În febra pregătirilor pentru sărbătorile de iarnă, unii se lasă  ademeniți de prețurile atractive și de aspectul exterior al  decorațiunilor, celelalte rămânând în umbră.Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.
+
+În febra pregătirilor pentru sărbătorile de iarnă, unii se lasă  ademeniți de prețurile atractive și de aspectul exterior al  decorațiunilor, celelalte rămânând în umbră.Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.
+
+Mulți vânzători nu au putut prezenta certificatul sanitar, iar de o  declarație de conformitate, nici vorbă. Specialiștii recomandă să  procurăm decorațiuni doar din locurile autorizate. Pentru  comercializarea decorațiunilor în lipsa declarației de conformitate și a  certificatului sanitar, comercianții riscă până la șapte mii de lei  amendă.

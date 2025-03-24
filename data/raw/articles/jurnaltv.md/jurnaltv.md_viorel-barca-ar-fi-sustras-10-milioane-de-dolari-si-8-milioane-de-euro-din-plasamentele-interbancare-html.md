@@ -1,0 +1,17 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20241211195055/www.jurnaltv.md/news/182f6c3a52b37887/viorel-barca-ar-fi-sustras-10-milioane-de-dolari-si-8-milioane-de-euro-din-plasamentele-interbancare.html?utm_source=RSS&utm_medium=RSS&utm_campaign=RSS"
+url: "https://www.jurnaltv.md/news/182f6c3a52b37887/viorel-barca-ar-fi-sustras-10-milioane-de-dolari-si-8-milioane-de-euro-din-plasamentele-interbancare.html"
+language: ro
+title: "Viorel Bârca ar fi sustras 10 milioane de dolari și 8 milioane de euro din plasamentele interbancare"
+publication: '[[JurnalTV]]'
+published: '2021-03-24'
+section: novosti
+description: "Un nou capăt de acuzare pe numele fostului președinte interimar al Băncii de Economii, Viorel Bârca, trimis în judecată acum o săptămână pentru „delapidarea averii străine în proporții deosebit de mari”. De această dată, fostul președinte interimar al BEM este acuzat, alături de un șef de direcție din cadrul Băncii Naționale a Moldovei, fost administrator special la Banca de Economii de „escrocherie” în proporții deosebit de mari în interesul unei organizații criminale. Cinci bunuri imobile ale celor doi învinuiți au fost puse sub sechestru de către procurori."
+---
+
+# Viorel Bârca ar fi sustras 10 milioane de dolari și 8 milioane de euro din plasamentele interbancare
+
+Un nou capăt de acuzare pe numele fostului președinte interimar al Băncii de Economii, Viorel Bârca, trimis în judecată acum o săptămână pentru „delapidarea averii străine în proporții deosebit de mari”. De această dată, fostul președinte interimar al BEM este acuzat, alături de un șef de direcție din cadrul Băncii Naționale a Moldovei, fost administrator special la Banca de Economii de „escrocherie” în proporții deosebit de mari în interesul unei organizații criminale. Cinci bunuri imobile ale celor doi învinuiți au fost puse sub sechestru de către procurori.
+
+Procurorii susțin că au probe care confirmă faptul că, în noiembrie 2014, cei doi, acționând de comun cu alți membri ai organizației criminale, ar fi sustras zece milioane de dolari SUA și opt milioane de euro din plasamentele interbancare ale Moldindconbank și Moldova-Agroindbank la Banca de Economii. Potrivit procurorilor, garanția rambursării acestor plasamente interbancare era de 35% din acțiunile Victoriabank, care au fost gajate de o companie cipriotă, afiliată lui Vladimir Plahotniuc și Ilan Șor, în folosul Moldindconbank și Moldova-Agroindbank, precum și contractele de amanet. Pe 28 noiembrie 2014, din bani bugetari, au fost restituite datoriile Băncii de Economii față de Moldova Agroindbank și Moldindconbank în mărime de 8 milioane de euro și 10 milioane de dolari. Operațiunea a avut loc fără rambursarea sumelor din contul bunurilor gajate, care garantau rambursarea acestor plasamente, iar gajul de 35% din acțiunile Băncii Comerciale Victoriabank a fost eliberat în interesul organizației criminale. Ex-președintele Băncii de Economii a fost reținut la începutul lunii decembrie 2020, împreună cu alte cinci persoane, între care foștii conducători ai celor trei bănci lichidate: Banca de Economii, Unibank și Banca Socială, dar și reprezentanți ai holdingului „Șor”. De atunci, inculpatul se află în arest la domiciliu. Cât despre fostul administrator special al Băncii de Economii - acum șef de Direcție la BNM, acesta a fost reținut pe 11 martie curent, iar ulterior plasat în arest, fiind cercetat de PCCOCS pentru „abuz de serviciu” la gestionarea garanțiilor bancare oferite de BNM celor trei bănci devalizate.

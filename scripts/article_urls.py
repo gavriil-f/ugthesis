@@ -15,7 +15,7 @@ def setup_argparse():
     """Set up command line arguments."""
     parser = argparse.ArgumentParser(description="Get article URLs from Wayback Machine archives")
     parser.add_argument("host", help="Host URL to fetch (comma-separated for multiple hosts)")
-    parser.add_argument("-y", "--year", default="2024", help="Year to fetch in YYYY format")
+    parser.add_argument("-y", "--year", default="2024", help="Year to fetch in YYYY format (default: 2024)")
     parser.add_argument("--no-filter", action="store_true", help="Disable URL filtering")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing CSV file")
     parser.add_argument("-P", "--path", help="Absolute path for output file")
@@ -138,7 +138,7 @@ def filter_urls(urls, archive_urls, host, no_filter=False):
             if not check_url.endswith('/'):
                 check_url += '/'
             
-            # General filters - Include only URLs that contain the host
+            # General filters - include only URLs that contain the host
             if host not in url:
                 excluded_count += 1
                 continue
@@ -172,10 +172,8 @@ def filter_urls(urls, archive_urls, host, no_filter=False):
                     pass_host_filters = False
                 elif re.search(r'/ro/news/\d{4}/$', check_url) or \
                      re.search(r'/ro/news/\d{4}/\d{2}/$', check_url) or \
-                     re.search(r'/ro/news/\d{4}/\d{2}/\d{2}/$', check_url):
-                    pass_host_filters = False
-                # New rule: filter out URLs with last segment starting with 'jurnalul-' or 'popcorn-show-'
-                elif re.search(r'/(jurnalul-|popcorn-show-)[^/]*/?$', check_url):
+                     re.search(r'/ro/news/\d{4}/\d{2}/\d{2}/$', check_url) or \
+                     re.search(r'/(jurnalul-|popcorn-show-)[^/]*/?$', check_url):
                     pass_host_filters = False
                     
             # Filters for nokta.md
@@ -219,10 +217,10 @@ def clean_and_filter_urls(original_urls, archive_urls, host, no_filter=False):
     if not original_urls:
         return [], []
         
-    # Clean URLs: Remove query strings
+    # Clean urls - remove query strings
     cleaned_urls = []
     cleaned_archive_urls = []
-    url_to_archive = {}  # Map original URLs to their archive URLs
+    url_to_archive = {}  # Map original URLs to their wayback machine (archive) URLs
     
     for i, url in enumerate(original_urls):
         try:
@@ -316,7 +314,7 @@ def process_host(host, args):
         if args.path:
             output_dir = args.path
         else:
-            # Find the root directory (go up one level from script location)
+            # Find the root directory (one level up from script location)
             script_dir = os.path.dirname(os.path.abspath(__file__))
             root_dir = os.path.dirname(script_dir)
             output_dir = os.path.join(root_dir, 'data')

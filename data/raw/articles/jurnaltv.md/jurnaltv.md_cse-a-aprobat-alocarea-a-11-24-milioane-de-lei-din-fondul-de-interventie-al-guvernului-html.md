@@ -1,0 +1,23 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240902162125/www.jurnaltv.md/news/d260ad3abd7989a5/cse-a-aprobat-alocarea-a-11-24-milioane-de-lei-din-fondul-de-interventie-al-guvernului.html"
+url: "https://www.jurnaltv.md/news/d260ad3abd7989a5/cse-a-aprobat-alocarea-a-11-24-milioane-de-lei-din-fondul-de-interventie-al-guvernului.html"
+language: ro
+title: "CSE a aprobat alocarea a 11,24 milioane de lei din Fondul de intervenție al Guvernului"
+publication: '[[JurnalTV]]'
+published: '2024-08-30'
+section: novosti
+description: "Comisia pentru Situații Excepționale a aprobat alocarea a 11,24 milioane de lei din Fondul de intervenție al Guvernului. Cei mai mulți bani sunt pentru lichidarea consecințelor calamităților naturale din această vară. Este vorba despre reparația unor edificii sociale și drumuri publice."
+---
+
+# CSE a aprobat alocarea a 11,24 milioane de lei din Fondul de intervenție al Guvernului
+
+Comisia pentru Situații Excepționale a aprobat alocarea a 11,24 milioane de lei din Fondul de intervenție al Guvernului. Cei mai mulți bani sunt pentru lichidarea consecințelor calamităților naturale din această vară. Este vorba despre reparația unor edificii sociale și drumuri publice.
+
+Pentru reparația acoperișului Gimnaziului din satul Costești, raionul Ialoveni, deteriorat de arșița din iulie, au fost alocate peste 3,8 milioane de lei. Este necesară și reparația acoperișului Centrului de Plasament Temporar pentru Persoane cu Dizabilități, din municipiul Orhei, care a avut de suferit în urma vijeliilor din iunie. În acest sens, instituția va primi 469,5 mii de lei.Alte patru localități vor beneficia de resurse pentru reabilitarea drumurilor afectate de ploi. În particular, mijloacele au fost distribuite pentru trei localități din raionul Sângerei: Bălășești - peste 1,5 milioane de lei, Pepeni - peste 1,7 milioane de lei și Prepelița - peste 1,8 milioane de lei. În același scop va primi 900 de mii de lei și satul Vertiujeni, raionul Florești.Din Fondul de intervenție al Guvernului va primi 818 mii de lei și o familie din orașul Ungheni, pentru a-și schimba locuința supusă riscului alunecărilor de teren.Furtuna puternică din 11 iunie a provocat pagube materiale în mai multe regiuni, dar și a luat viața a două persoane. Atunci, zeci de localități au rămas fără curent. Intemperia a lovit sate din raioanele Orhei, Criuleni, Strășeni, Telenești, Călărași, Nisporeni, Ialoveni și Hâncești, dar și municipiul Chișinău. Furtuna a făcut prăpăd și în stânga Nistrului. Școala din comuna Popencu, raionul Rîbnița, a rămas parțial fără acoperiș.
+
+Alte patru localități vor beneficia de resurse pentru reabilitarea drumurilor afectate de ploi. În particular, mijloacele au fost distribuite pentru trei localități din raionul Sângerei: Bălășești - peste 1,5 milioane de lei, Pepeni - peste 1,7 milioane de lei și Prepelița - peste 1,8 milioane de lei. În același scop va primi 900 de mii de lei și satul Vertiujeni, raionul Florești.Din Fondul de intervenție al Guvernului va primi 818 mii de lei și o familie din orașul Ungheni, pentru a-și schimba locuința supusă riscului alunecărilor de teren.Furtuna puternică din 11 iunie a provocat pagube materiale în mai multe regiuni, dar și a luat viața a două persoane. Atunci, zeci de localități au rămas fără curent. Intemperia a lovit sate din raioanele Orhei, Criuleni, Strășeni, Telenești, Călărași, Nisporeni, Ialoveni și Hâncești, dar și municipiul Chișinău. Furtuna a făcut prăpăd și în stânga Nistrului. Școala din comuna Popencu, raionul Rîbnița, a rămas parțial fără acoperiș.
+
+Din Fondul de intervenție al Guvernului va primi 818 mii de lei și o familie din orașul Ungheni, pentru a-și schimba locuința supusă riscului alunecărilor de teren.Furtuna puternică din 11 iunie a provocat pagube materiale în mai multe regiuni, dar și a luat viața a două persoane. Atunci, zeci de localități au rămas fără curent. Intemperia a lovit sate din raioanele Orhei, Criuleni, Strășeni, Telenești, Călărași, Nisporeni, Ialoveni și Hâncești, dar și municipiul Chișinău. Furtuna a făcut prăpăd și în stânga Nistrului. Școala din comuna Popencu, raionul Rîbnița, a rămas parțial fără acoperiș.
+
+Furtuna puternică din 11 iunie a provocat pagube materiale în mai multe regiuni, dar și a luat viața a două persoane. Atunci, zeci de localități au rămas fără curent. Intemperia a lovit sate din raioanele Orhei, Criuleni, Strășeni, Telenești, Călărași, Nisporeni, Ialoveni și Hâncești, dar și municipiul Chișinău. Furtuna a făcut prăpăd și în stânga Nistrului. Școala din comuna Popencu, raionul Rîbnița, a rămas parțial fără acoperiș.

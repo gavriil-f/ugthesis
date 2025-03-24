@@ -1,0 +1,24 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20241210091840/www.jurnaltv.md/news/f4a62cad12057803/gazprom-sugereaza-ca-ar-putea-opri-furnizarea-gazului-la-noapte-din-cauza-neachitarii-la-termen-a-platilor-curente.html"
+url: "https://www.jurnaltv.md/news/f4a62cad12057803/gazprom-sugereaza-ca-ar-putea-opri-furnizarea-gazului-la-noapte-din-cauza-neachitarii-la-termen-a-platilor-curente.html"
+language: ro
+title: "”Gazprom” sugerează că ar putea opri furnizarea gazului la noapte, din cauza neachitării la termen a plăților curente"
+publication: '[[JurnalTV]]'
+published: '2021-11-24'
+section: novosti
+description: "Gazprom continuă să amenințe că va stopa furnizarea gazelor naturale spre Republica Moldova. Gigantul rus a trimis o nouă notificare autorităților de la Chișinău în care avertizează că termenul de achitare a facturii pentru gazul consumat în octombrie, dar și a plăților în avans pentru întreaga lună noiembrie, expiră astăzi. Reprezentantul „Gazprom”, Serghei Kuprianov, sugerează că Rusia ar putea tăia gazul pentru Moldova chiar astăzi, la miezul nopții. Șeful „MoldovaGaz” nu este de găsit pentru a comenta situația, iar reprezentanții Ministerului Infrastructurii spun că vor face mai târziu declarații la acest subiect."
+---
+
+# ”Gazprom” sugerează că ar putea opri furnizarea gazului la noapte, din cauza neachitării la termen a plăților curente
+
+Gazprom continuă să amenințe că va stopa furnizarea gazelor naturale spre Republica Moldova. Gigantul rus a trimis o nouă notificare autorităților de la Chișinău în care avertizează că termenul de achitare a facturii pentru gazul consumat în octombrie, dar și a plăților în avans pentru întreaga lună noiembrie, expiră astăzi. Reprezentantul „Gazprom”, Serghei Kuprianov, sugerează că Rusia ar putea tăia gazul pentru Moldova chiar astăzi, la miezul nopții. Șeful „MoldovaGaz” nu este de găsit pentru a comenta situația, iar reprezentanții Ministerului Infrastructurii spun că vor face mai târziu declarații la acest subiect.
+
+Secretarul de presă al Gazprom, Serghei Kuprianov, a declarat astăzi  dimineață pentru presa din Rusia că termenul-limită pentru achitarea  gazelor naturale consumate de Republica Moldova în lunile octombrie și  noiembrie expiră astăzi, 24 noiembrie, dar plata așa și nu a fost  efectuată. Asta în contextul în care, luni seara, „Gazprom” a dat  autorităților de la Chișinău un ultimatum de 48 de ore pentru transferul  bănesc.
+
+SERGHEI KUPRIANOV, secretarul de presă al Gazprom:*"Moldova nu a efectuat plățile curente pentru gaz. Termenul-limită de 48  de ore, după expedierea notificării privind sistarea livrărilor din  cauza neachitării gazului, expiră miercuri la miezul nopții."*„Gazprom” amenință că nevalăsa, la noapte, fără gaz în contextul în care  Guvernul a aprobat ieri o tranzacție financiară de urgență, din bani  publici, pentru ca MoldovaGaz să dispună de 1,4 miliarde de lei pentru a  achita datoria curentă, dar și avansul pentru noiembrie, către  „Gazprom”. Ministrul Infrastructurii, Andrei Spânu, a anunțat că acești  bani vor fi luați din suma alocată în perioada stării de urgență  companiei de stat ”Energocom”, pentru a cumpăra gaze din surse  alternative. Tot ieri, Guvernul a comunicat Gazpromului și companiei  MoldovaGaz că soluția identificată pentru achitarea urgentă a plăților  este de a încheia un contract de cesionare a unei părți din datoria pe  care o are „Termoelectrica” la „MoldovaGaz”, urmând ca aceasta să fie  achitată de „Energocom”. Datoria cesionată va constitui anume 1,4  miliarde de lei, bani pe care îi va achita „Energocom” către  „MoldovaGaz”, iar aceasta îi va transfera Gazpromului. Pentru această  tranzacție a fost modificată în prima lectură Legea bugetului de stat  pentru anul curent, iar Guvernul a promis părții ruse că mâine  Parlamentul va aproba modificarea în regim de urgență. Prin declarațiile  sale, Gazprom sugerează însă cu nu este dispus să aștepte o transferul  nici măcar o zi. Ministerul Infrastructurii ezită deocamdată să comunice  pe acest subiect.
+
+ALINA MERLICI, consilier al ministrului Andrei Spânu:*"- În privința declarației de ieri a domnului Spânu - el spunea că urma  să vorbească cu Alexei Miller sau cu cineva din Gazprom, aseară sau azi  dimineață. A avut loc o astfel de discuție?
+ - Încă nu cunosc dacă a avut loc această discuție. Tocmai de aia zic ca  dumnealui să iasă din ședință și să decidem cum venim cu un mesaj și să  menționăm dacă au fost aceste discuții cu domnul Miller sau nu."*
+
+L-am sunat și pe șeful MoldovaGaz, Vadim Ceban, pentru a-l întreba de  ce, în ultimele săptămâni, nu a comunicat nimic despre intențiile  Gazprom de a stopa furnizarea gazelor, dar acesta nu ne-a răspuns la  telefon.

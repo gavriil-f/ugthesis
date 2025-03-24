@@ -1,0 +1,23 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240620031350/www.jurnaltv.md/news/3099e558575529f8/consiliul-europei-la-cei-70-de-ani.html.62"
+url: "http://www.jurnaltv.md/news/3099e558575529f8/consiliul-europei-la-cei-70-de-ani.html.62"
+language: ro
+title: "Consiliul Europei la cei 70 de ani"
+publication: '[[JurnalTV]]'
+published: '2019-05-08'
+section: novosti
+description: "La Biblioteca Națională din Chișinău a fost vernisată o expoziție dedicată celei de-a 70-a aniversări a Consiliului Europei. Evenimentul se desfășoară până la finele lunii mai, cu sloganul"
+---
+
+# Consiliul Europei la cei 70 de ani
+
+La Biblioteca Națională din Chișinău a fost vernisată o expoziție dedicată celei de-a 70-a aniversări a Consiliului Europei. Evenimentul se desfășoară până la finele lunii mai, cu sloganul "Drepturile noastre, libertățile noastre, Europa noastră”. 70 de ani sunt o istorie și nicio schimbare nu se produce într-o singură zi, a declarat șeful Oficiului Consiliului Europei la Chișinău, William Massolin.
+
+Consiliul Europei a jucat un rol în asigurarea păci și stabilității pe continent, oferind membrilor săi un prilej de mândrie, a declarat la rândul său secretarul de stat al Ministerului de Externe, Tatiana Molcean.La eveniment a fost prezent și ambasadorul Franței în Republica Moldova, care a anunțat că începând cu ziua de 17 mai și până în 27 noiembrie, țara sa va deține președinția rotativă în cadrul comitetului miniștrilor Consiliului Europei, pe parcursul căreia va urmări câteva priorități de bază.Expoziția propune o incursiune în istoria, politicile, realizările Consiliului Europei privind drepturile omului - democraţie, justiţie, cultură, educaţie și alte domenii, a specificat directorul Bibliotecii naționale, Elena Pintilii.Înființat la 5 mai 1949, Consiliul Europei include 47 de state, dintre care 28 sunt membre ale Uniunii Europene. Consiliul Europei ajută statele membre să lupte împotriva corupției și a terorismului și întreprinde reformele judiciare necesare. Grupul său de experți constituționali, cunoscut drept Comisia de la Veneția, oferă consiliere juridică țărilor din întreaga lume. De la aderarea Republicii Moldova la Consiliul Europei, din data de 13 iulie 1995, Organizația a promovat consolidarea democrației, a drepturilor omului și a statului de drept.
+
+La eveniment a fost prezent și ambasadorul Franței în Republica Moldova, care a anunțat că începând cu ziua de 17 mai și până în 27 noiembrie, țara sa va deține președinția rotativă în cadrul comitetului miniștrilor Consiliului Europei, pe parcursul căreia va urmări câteva priorități de bază.Expoziția propune o incursiune în istoria, politicile, realizările Consiliului Europei privind drepturile omului - democraţie, justiţie, cultură, educaţie și alte domenii, a specificat directorul Bibliotecii naționale, Elena Pintilii.Înființat la 5 mai 1949, Consiliul Europei include 47 de state, dintre care 28 sunt membre ale Uniunii Europene. Consiliul Europei ajută statele membre să lupte împotriva corupției și a terorismului și întreprinde reformele judiciare necesare. Grupul său de experți constituționali, cunoscut drept Comisia de la Veneția, oferă consiliere juridică țărilor din întreaga lume. De la aderarea Republicii Moldova la Consiliul Europei, din data de 13 iulie 1995, Organizația a promovat consolidarea democrației, a drepturilor omului și a statului de drept.
+
+Expoziția propune o incursiune în istoria, politicile, realizările Consiliului Europei privind drepturile omului - democraţie, justiţie, cultură, educaţie și alte domenii, a specificat directorul Bibliotecii naționale, Elena Pintilii.Înființat la 5 mai 1949, Consiliul Europei include 47 de state, dintre care 28 sunt membre ale Uniunii Europene. Consiliul Europei ajută statele membre să lupte împotriva corupției și a terorismului și întreprinde reformele judiciare necesare. Grupul său de experți constituționali, cunoscut drept Comisia de la Veneția, oferă consiliere juridică țărilor din întreaga lume. De la aderarea Republicii Moldova la Consiliul Europei, din data de 13 iulie 1995, Organizația a promovat consolidarea democrației, a drepturilor omului și a statului de drept.
+
+Înființat la 5 mai 1949, Consiliul Europei include 47 de state, dintre care 28 sunt membre ale Uniunii Europene. Consiliul Europei ajută statele membre să lupte împotriva corupției și a terorismului și întreprinde reformele judiciare necesare. Grupul său de experți constituționali, cunoscut drept Comisia de la Veneția, oferă consiliere juridică țărilor din întreaga lume. De la aderarea Republicii Moldova la Consiliul Europei, din data de 13 iulie 1995, Organizația a promovat consolidarea democrației, a drepturilor omului și a statului de drept.

@@ -1,0 +1,29 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20241019040714/www.jurnaltv.md/news/814765812b23384c/afacere-de-milioane-pusa-la-bataie.htm"
+url: "http://www.jurnaltv.md/news/814765812b23384c/afacere-de-milioane-pusa-la-bataie.htm"
+language: ro
+title: "Afacere de milioane, pusă la „bătaie”"
+publication: '[[JurnalTV]]'
+published: '2019-07-19'
+section: novosti
+description: "Un om de afaceri din Briceni susține că este supus unor presiuni din partea Fiscului, protejat de Partidul Democrat, care ar încerca să-i ia averea. Lui Valeriu Gorobeț i se cer acum peste 30 de milioane de lei drept impozite și penalități. În schemă ar fi implicat ambasadorul Republicii Moldova în Ungaria, Oleg Țulea. Diplomatul spune nu își amintește să-l fi întâlnit vreodată pe Gorobeț."
+---
+
+# Afacere de milioane, pusă la „bătaie”
+
+Un om de afaceri din Briceni susține că este supus unor presiuni din partea Fiscului, protejat de Partidul Democrat, care ar încerca să-i ia averea. Lui Valeriu Gorobeț i se cer acum peste 30 de milioane de lei drept impozite și penalități. În schemă ar fi implicat ambasadorul Republicii Moldova în Ungaria, Oleg Țulea. Diplomatul spune nu își amintește să-l fi întâlnit vreodată pe Gorobeț.
+
+În toamna anului 2014, Valeriu Gorobeț a încheiat cu un businessman danez un contract de vânzare-cumpărare, potrivit căruia, danezul urma să-i achite, timp de cinci ani, 3,5 milioane de euro pentru complexul de creștere a porcinelor, care se întinde pe 36 de hectare. După ce a primit doar 200 de mii de euro, Inspectoratul Fiscal de Stat l-a anunțat că are de achitat aproximativ 16 milioane de lei, suma fiind impozitată integral, susține Gorobeț.În aceste condiții, Valeriu Gorobeț a reziliat contractul cu danezul, care ar fi fost un interpus al Partidului Democrat.Printr-o decizie a instanței de judecată, complexul a revenit în posesia lui Gorobeț, dar presiunile au continuat. În primăvara lui 2015, omul de afaceri ar fi fost chemat la sediul Organizației Teritoriale Edineț a Partidului Democrat.Gorobeț susține că a respins oferta lui Țulea și au urmat consecințele.Acum, omul de afaceri riscă să rămână fără complexul de creștere a porcinelor.Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+În aceste condiții, Valeriu Gorobeț a reziliat contractul cu danezul, care ar fi fost un interpus al Partidului Democrat.Printr-o decizie a instanței de judecată, complexul a revenit în posesia lui Gorobeț, dar presiunile au continuat. În primăvara lui 2015, omul de afaceri ar fi fost chemat la sediul Organizației Teritoriale Edineț a Partidului Democrat.Gorobeț susține că a respins oferta lui Țulea și au urmat consecințele.Acum, omul de afaceri riscă să rămână fără complexul de creștere a porcinelor.Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+Printr-o decizie a instanței de judecată, complexul a revenit în posesia lui Gorobeț, dar presiunile au continuat. În primăvara lui 2015, omul de afaceri ar fi fost chemat la sediul Organizației Teritoriale Edineț a Partidului Democrat.Gorobeț susține că a respins oferta lui Țulea și au urmat consecințele.Acum, omul de afaceri riscă să rămână fără complexul de creștere a porcinelor.Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+Gorobeț susține că a respins oferta lui Țulea și au urmat consecințele.Acum, omul de afaceri riscă să rămână fără complexul de creștere a porcinelor.Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+Acum, omul de afaceri riscă să rămână fără complexul de creștere a porcinelor.Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+Oleg Țulea nu-și amintește să-l fi întâlnit vreodată pe Valeriu Gorobeț.Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.
+
+Reprezentanții Serviciului Fiscal de Stat ne-au comunicat că deciziile lor sunt legale, iar suma datorată este un rezultat al neonorării de către omul de afaceri a declarării veniturilor. Totodată, este negată implicarea politică a vreunui partid. Vladimir Plahotniuc nu este de găsit pentru o reacție.

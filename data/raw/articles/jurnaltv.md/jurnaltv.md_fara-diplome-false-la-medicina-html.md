@@ -1,0 +1,15 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240704115335/www.jurnaltv.md/news/aba16ebd1f48f9d1/fara-diplome-false-la-medicina.html"
+url: "http://www.jurnaltv.md/news/aba16ebd1f48f9d1/fara-diplome-false-la-medicina.html"
+language: ro
+title: "Fără diplome false la medicină"
+publication: '[[JurnalTV]]'
+section: politic
+description: "Totul este în ordine la Universitatea de Stat de Medicină și Farmacie „Nicolae Testemițanu” în privința diplomelor eliberate străinilor. La această concluzie a ajuns o comisie instituită de Ministerul Sănătății și cel al Educației, care a avut scopul de a face verificării în acest sens. Asta după ce presa din Israel a scris că poliția a reținut aproximativ 40 de medici și farmaciști din această țară, care ar deține diplome false, iar documentele ar proveni din mai multe state, inclusiv Republica Moldova."
+---
+
+# Fără diplome false la medicină
+
+Potrivit unui comunicat de presă al Ministerului Educației, Culturii și Cercetării, comisia de anchetă NU a depistat abateri în procesul de recrutare, admitere, documentare, formare profesională și eliberare a diplomelor pentru studenții străini de la Universitatea de Medicină și Farmacie „Nicolae Testemițanu”. Totodată, se precizează că membrii comisiei au verificat toate dosarele studenților străini de la admitere până la absolvire. Ei au constatat că procesul de studii la Universitatea de Stat de Medicină și Farmacie se desfășoară în conformitate cu actele normative în vigoare, precum și în baza regulamentelor interne, aprobate de Senatul acesteia. De asemenea, în comunicat se menționează că transferul studenților de la alte instituții de învățământ superior din țară sau din străinătate, indiferent de facultate și reușita academică, NU este acceptat. Comisia a mai ajuns la concluzia că procedurile existente de perfectare și eliberare a actelor de studii nu permit vulnerabilități, ceea ce exclude posibilitatea de modificare și completare a listelor absolvenților, astfel făcând imposibilă falsificarea documentelor. 
+Amintim că, acum aproximativ o lună, mass-media din Israel scria că peste 40 de medici și farmaciști din această țară au fost reținuți pentru că ar deține diplome false de absolvire a unor facultăți din mai multe țări. Se vorbea inclusiv despre Republica Moldova. Actele respective erau întocmite în limba arabă, iar cei arestați erau arabi din Israel. Jurnaliștii israelieni mai scriau că scandalul a izbucnit după ce președintele Asociației Stomatologilor Arabi din această țară a fost într-o vizită la Chișinău. El ar fi aflat că există o întreagă rețea de falsificatori cu sedii în câteva state ale lumii, iar în fruntea grupării ar fi fost un sirian, care a locuit o perioadă și la Chișinău. În total, ar fi fost falsificate peste 200 de diplome de licență. Pe de altă parte, avocații celor reținuți spuneau că acuzațiile sunt nefondate și exagerate, iar clienții lor le resping. Ulterior, potrivit aceleiași prese din Israel, toți cei aproximativ 40 de oameni cercetați în acest caz au fost eliberați.

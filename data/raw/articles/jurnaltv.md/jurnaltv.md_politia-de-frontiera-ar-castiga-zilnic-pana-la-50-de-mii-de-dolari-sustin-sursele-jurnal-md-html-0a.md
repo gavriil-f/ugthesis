@@ -1,0 +1,27 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240324140936/www.jurnaltv.md/news/57d8f94236a39b30/politia-de-frontiera-ar-castiga-zilnic-pana-la-50-de-mii-de-dolari-sustin-sursele-jurnal-md.html%0A"
+url: "https://www.jurnaltv.md/news/57d8f94236a39b30/politia-de-frontiera-ar-castiga-zilnic-pana-la-50-de-mii-de-dolari-sustin-sursele-jurnal-md.html%0A"
+language: ro
+title: "Poliția de Frontieră ar câștiga zilnic până la 50 de mii de dolari, susțin sursele Jurnal.md"
+publication: '[[JurnalTV]]'
+published: '2023-01-16'
+section: novosti
+description: "Poliția de Frontieră ar câștiga zilnic de la 5000 până la 50 de mii de dolari dintr-o schemă de migrație ilegală a bărbaților ucraineni în Republica Moldova, afirmă sursele jurnal.md. Schema ar fi organizată încă din primăvară cu acordul conducerii de vârf a Inspectoratului General al Poliției de Frontieră, se arată în investigația realizată de Pavel Păduraru. În replică, șeful IGPF, Rosian Vasiloi, a dat asigurări că instituția nu tolerează ilegalități la trecerile frontierei de stat."
+---
+
+# Poliția de Frontieră ar câștiga zilnic până la 50 de mii de dolari, susțin sursele Jurnal.md
+
+Poliția de Frontieră ar câștiga zilnic de la 5000 până la 50 de mii de dolari dintr-o schemă de migrație ilegală a bărbaților ucraineni în Republica Moldova, afirmă sursele jurnal.md. Schema ar fi organizată încă din primăvară cu acordul conducerii de vârf a Inspectoratului General al Poliției de Frontieră, se arată în investigația realizată de Pavel Păduraru. În replică, șeful IGPF, Rosian Vasiloi, a dat asigurări că instituția nu tolerează ilegalități la trecerile frontierei de stat.
+
+Redacția Jurnal.md a aflat detalii despre cum funcționa schema după 6 octombrie trecut, când serviciile speciale ucrainene l-au reținut pe polițistul de frontieră Denis Dub de la sectorul Otaci. Bărbatul a fost încătușat când ieșea din Ucraina prin punctul de trecere Sokireni-Ocnița și a fost plasat în arest în Ucraina. Instituțiile de drept de acolo au constatat că respectivul, în complicitate cu unii ucraineni, a organizat migrația ilegală în Republica Moldova a mai multor bărbați. Printre altele, rolul lui Dub ar fi fost de a transporta migranții din orașul Moghilev-Podolsk până în apropierea frontierei de stat și de a le explica la ce oră și cum să treacă hotarul prin așa numitul sector „verde”. Tot el avea grijă ca patrula poliției să se afle în alt loc la ora indicată. Sursele noastre consideră că situația se explică prin faptul că banii obținuți de Dub – de la 5000 până la zece mii de dolari de persoană - erau împărțiți între șefii Poliției de Frontieră.
+
+Se spune că 90% din acești bani ar fi fost preluați de către așa-zisul cap al grupării Constantin Malic, pe atunci șef al Direcției investigații a IGPF, decorat cu medalia „Meritul Militar” în 2015. Acesta ar fi intrat în posesia a 40% din suma primită, din care se împărțea cu unii subalterni și cu șeful său Valeriu Popa, pe atunci conducător al Direcției investigații speciale a IGPF. Celelalte 50%, Malic le-ar fi transmis lui Mihail Voinițchi, șef interimar al Direcției Regionale Nord desemnat patru ani consecutiv cel mai pun polițist de frontieră din Republica Moldova. La rândul său, acesta ar fi împărțit banii cu șeful IGPF, Rosian Vasiloi.
+
+Aceleași surse spun că, după reținerea lui Dub, Vasiloi ar fi încercat prin interpuși să-i convingă pe colegii săi ucraineni să-l elibereze pe polițistul moldovean, însă nu a fost auzit. Tot pe 6 octombrie, la Chișinău, a fost reținut Constantin Malic. Polițiști de frontieră, care au solicitat să le păstrăm anonimatul, ne-au spus că acesta era documentat pentru migrație ilegală, însă în cadrul documentării s-a constatat și implicarea sa în acțiuni de contrabandă.
+
+La solicitarea Jurnal.md, PCCOCS ne-a informat în decembrie că Malic într-adevăr se află în stare de arest, fiind învinuit de contrabandă săvârșită în cadrul unui grup criminal organizat. Pe Svetlana Grosu și Ion Cojocari, ambii cercetați penal, nu am reușit să-i găsim. Vasile Gurinov are telefonul închis după percheziție, iar Constantin Malic se află în detenție. Respectând prezumția de nevinovăție, Jurnal.md este gata să le publice replicile la acest material. Într-un răspuns pentru Jurnal.md, șeful adjunct al IGPF, Oleg Bucătaru, a confirmat că sunt cazuri de corupție, dar a menționat că nu este un fenomen la ordinea zilei.
+
+OLEG BUCĂTARU șef adjunct IGPF:*"Odată cu războiul, clar că suntem pe segmentul ăsta foarte alertați, dar nu putem spune că este un fenomen enorm, care prejudiciază. În fiecare situație, pătrundem în esență și se pornesc investigații."*
+
+Într-un răspuns pentru Jurnal.md, șeful IGPF, Rosian Vasiloi susține că întreprinde toate măsurile corespunzătoare, astfel încât angajații săi să exercite atribuțiile în domeniul contracarării fenomenului migrației ilegale și a criminalității transfrontaliere, în strictă conformitate cu cadrul normativ și nu tolerează, sub nicio formă, abaterile de la cadrul normativ în activitatea de serviciu. În același context, PCCOCS a informat Jurnal.md că gestionează în prezent patru dosare penale pe faptul organizării migrației ilegale a ucrainenilor, cu implicarea a patru angajați ai IGPF, trei dintre care au fost reținuți, iar unul este recunoscut în calitate de bănuit.

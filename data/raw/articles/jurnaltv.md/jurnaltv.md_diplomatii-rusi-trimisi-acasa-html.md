@@ -1,0 +1,35 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240916021957/www.jurnaltv.md/news/88b21713a3d6984f/diplomatii-rusi-trimisi-acasa.html"
+url: "https://www.jurnaltv.md/news/88b21713a3d6984f/diplomatii-rusi-trimisi-acasa.html"
+language: ro
+title: "Diplomații ruși, trimiși acasă"
+publication: '[[JurnalTV]]'
+published: '2023-08-14'
+section: novosti
+description: "Peste 40 de angajați ai Ambasadei Federației Ruse la Chișinău, acuzați că ar fi implicați în acțiuni de destabilizare și spionaj, au părăsit astăzi teritoriul Republicii Moldova."
+---
+
+# Diplomații ruși, trimiși acasă
+
+Peste 40 de angajați ai Ambasadei Federației Ruse la Chișinău, acuzați că ar fi implicați în acțiuni de destabilizare și spionaj, au părăsit astăzi teritoriul Republicii Moldova.
+
+În total, peste 100 de oameni au fost urcați în două autocare, care au venit în fața Ambasadei Federației Ruse, iar apoi au fost transportați la Aeroportul Internațional Chișinău. Este vorba despre 22 de diplomați ruși, 23 de angajați din rândul personalului tehnic și familiile acestora. Au plecat cu toții la Moscova. Se întâmplă după ce autoritățile de la Chișinău au dispus, în iulie curent, reducerea personalului de la Ambasada Rusiei, ca urmare a investigației realizată de Jurnal TV privind antenele parabolice instalate pe acoperișul reprezentanței diplomatice ruse.
+
+Dimineața, la ora 5: 30, un avion guvernamental al Federației Ruse a aterizat pe Aeroportul Internațional Chișinău. La aceeași oră, două autocare au parcat în fața Ambasadei Rusiei, pentru a-i prelua și transporta la Aeroport pe diplomați, personalul auxiliar și familiile angajaților reprezentanței diplomatice.
+
+Diplomații și familiile lor au fost petrecuți de câțiva „simpatizanți”, care s-au adunat dis-de-dimineață în fața Ambasadei. La Aeroport îi așteptau deputați și consilieri municipali ai PSRM.
+
+Autoritățile de la Chișinău spun că își asumă pe deplin decizia de reducere a personalului de la Ambasada Federației Ruse. Ministrul de Externe, Nicu Popescu, a declarat după ședința Guvernului că a analizat toate riscurile și se așteaptă la un răspuns din partea Rusiei.
+
+NICU POPESCU, ministrul de Externe:*"În Republica Moldova rămân zece diplomați și 15 persoane cu statut de angajați tehnici. - Vă așteptați la un răspuns din partea Federației Ruse? Sunteți pregătiți pentru diferite scenarii? - Una este să fii pregătit, iar alta este să știi ce urmează. Nimeni nu știe ce va urma. Noi am analizat mai multe scenarii și așteptăm. Este în logica acțiunilor nu foarte prietenoase ale Rusiei cu Republica Moldova și știm foarte bine că au fost mai multe situații de lipsă de respect față de Moldova."*
+
+La sfârșitul lunii iulie, ministrul de Externe, Nicu Popescu, a anunțat despre decizia de reducere a numărului angajaților din cadrul Ambasadei Federației Ruse la Chișinău de la 70 la 25. Potrivit lui Popescu, Republica Moldova a fost, timp de mai multe decenii, ținta unor activități ostile din partea Federației Ruse, unele fiind realizate inclusiv prin intermediul Ambasadei ruse din Chișinău. El a menționat atunci și informațiile recente privind numărul mare de antene parabolice instalate pe acoperișul reprezentanței diplomatice.
+
+NICU POPESCU, ministrul Afacerilor Externe și Integrării Europene:*"Atunci când o bună parte din prezența diplomatică a altei țări este îndreptată spre eforturile de destabilizare a țării noastre și acțiuni care nu țin de modalitățile standard de acțiunile unor servicii diplomatice, am ajuns de comun acord cu decidenții politici la necesitatea limitării numărului de diplomați acreditați din Federația Rusă."*
+
+Ambasadorul Federației Ruse în Republica Moldova, Oleg Vasnețov, a acuzat autoritățile de la Chișinău de rusofobie și a avertizat că decizia va avea consecințe. Iar purtătorul de cuvânt al Ministerului rus de Externe, Maria Zaharova, a menționat că această decizie ”este încă un pas al Chișinăului spre distrugerea relațiilor bilaterale”.Potrivit Ministerului de Externe, decizia de a reduce numărul personalului diplomatic al Rusiei, administrativ, tehnic și de serviciu, este adoptată în corespundere cu prevederile articolului 11 al Convenției de la Viena, din 18 aprilie 1961, care arată că ”în lipsa unui acord explicit asupra misiunii, statul acreditar poate cere ca acest efectiv să fie menținut în limitele a ceea ce el considera ca rezonabil și normal, având în vedere împrejurările și condițiile existente în acest stat și nevoile misiunii în cauza”. Am încheiat citatul. Decizia Chișinăului trebuie să fie pusă în aplicare până la 15 august curent. În prezent, Republica Moldova are șase diplomați acreditați în Federația Rusă.Potrivit unei investigații realizate de postul nostru de televiziune în colaborare cu jurnaliștii portalului independent rus, The Insider, Ambasada Rusiei la Chișinău este echipată cu multiple sisteme de antene, capabile să capteze orice tip de semnale la distanță lungă. Pe acoperișurile celor două clădiri a misiunii diplomatice ar fi instalate 28 de astfel de dispozitive, ceea ce este de două ori mai mult decât la Bruxelles, unde se află multe dintre subdiviziunile Uniunii Europene și stafful NATO.
+
+Potrivit Ministerului de Externe, decizia de a reduce numărul personalului diplomatic al Rusiei, administrativ, tehnic și de serviciu, este adoptată în corespundere cu prevederile articolului 11 al Convenției de la Viena, din 18 aprilie 1961, care arată că ”în lipsa unui acord explicit asupra misiunii, statul acreditar poate cere ca acest efectiv să fie menținut în limitele a ceea ce el considera ca rezonabil și normal, având în vedere împrejurările și condițiile existente în acest stat și nevoile misiunii în cauza”. Am încheiat citatul. Decizia Chișinăului trebuie să fie pusă în aplicare până la 15 august curent. În prezent, Republica Moldova are șase diplomați acreditați în Federația Rusă.Potrivit unei investigații realizate de postul nostru de televiziune în colaborare cu jurnaliștii portalului independent rus, The Insider, Ambasada Rusiei la Chișinău este echipată cu multiple sisteme de antene, capabile să capteze orice tip de semnale la distanță lungă. Pe acoperișurile celor două clădiri a misiunii diplomatice ar fi instalate 28 de astfel de dispozitive, ceea ce este de două ori mai mult decât la Bruxelles, unde se află multe dintre subdiviziunile Uniunii Europene și stafful NATO.
+
+Potrivit unei investigații realizate de postul nostru de televiziune în colaborare cu jurnaliștii portalului independent rus, The Insider, Ambasada Rusiei la Chișinău este echipată cu multiple sisteme de antene, capabile să capteze orice tip de semnale la distanță lungă. Pe acoperișurile celor două clădiri a misiunii diplomatice ar fi instalate 28 de astfel de dispozitive, ceea ce este de două ori mai mult decât la Bruxelles, unde se află multe dintre subdiviziunile Uniunii Europene și stafful NATO.

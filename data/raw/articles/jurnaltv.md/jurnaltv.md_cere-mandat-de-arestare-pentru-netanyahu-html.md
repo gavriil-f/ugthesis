@@ -1,0 +1,23 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240529215253/www.jurnaltv.md/news/103406fc68a0d813/cere-mandat-de-arestare-pentru-netanyahu.html?utm_source=RSS&utm_medium=RSS&utm_campaign=RSS"
+url: "http://www.jurnaltv.md/news/103406fc68a0d813/cere-mandat-de-arestare-pentru-netanyahu.html"
+language: ro
+title: "Cere mandat de arestare pentru Netanyahu"
+publication: '[[JurnalTV]]'
+published: '2024-05-20'
+section: novosti
+description: "Procurorul şef al Curţii Penale Internaţionale, Karim Khan, a cerut astăzi mandat de arestare pentru premierul israelian Benjamin Netanyahu și pentru liderul Hamas, Yahya Sinwar. Aceștia sunt acuzați de crime de război și crime împotriva umanității după atacurile din 7 octombrie 2023 asupra Israelului și pentru războiul care a urmat în Gaza. Karim Khan a făcut declarații în acest sens într-un interviu pentru CNN."
+---
+
+# Cere mandat de arestare pentru Netanyahu
+
+Procurorul şef al Curţii Penale Internaţionale, Karim Khan, a cerut astăzi mandat de arestare pentru premierul israelian Benjamin Netanyahu și pentru liderul Hamas, Yahya Sinwar. Aceștia sunt acuzați de crime de război și crime împotriva umanității după atacurile din 7 octombrie 2023 asupra Israelului și pentru războiul care a urmat în Gaza. Karim Khan a făcut declarații în acest sens într-un interviu pentru CNN.
+
+KARIM KHAN, procurorul șef al Curții Penale Internaționale:*"Solicităm mandat pentru prim-ministrul Netanyahu și, de asemenea, pentru ministrul Apărării, Yoav Gallant, pentru crimele de provocare a exterminării, provocarea de foamete, ca metodă de război, inclusiv refuzul aprovizionării cu ajutor umanitar, care vizează în mod deliberat civilii aflați în conflict."*
+
+Curtea Penală Internațională solicită mandate de arestare și pentru liderul Hamas, Yahya Sinwar, și pentru alți doi lideri de top ai grupării islamiste. Procurorul a spus că acuzațiile includ „exterminarea, crima, luarea de ostatici, viol și agresiune sexuală în detenție”. Acuzațiile împotriva lui Netanyahu și Gallant includ „provocarea exterminării, provocarea de foamete ca metodă de război, inclusiv refuzul aprovizionării umanitare, țintirea deliberată a civililor aflați în conflict”.Luna trecută, când au apărut rapoarte conform cărora procurorul-șef al CPI ia în considerare acest curs de acțiune, Netanyahu a spus că „orice mandat de arestare pentru oficiali militari și ai guvernului israelian înalt „ar fi un scandal de proporții istorice”. „Israelul are un sistem juridic independent, care investighează riguros toate încălcările legii”, declara Netanyahu. Ministrul israelian al cabinetului de război, Benny Gantz, a denunțat luni cererea Curții și a catalogat-o drept „o fărădelege”. „A face o paralelă între liderii unei țări democratice hotărâte să se apere de o teroare josnică și liderii unei organizații teroriste însetate de sânge este o distorsiune profundă a justiției și un faliment moral flagrant”, a declarat Gantz.Israelul și Statele Unite nu sunt membre ale Curții Penale Internaționale. Cu toate acestea, Curtea susține că are jurisdicție asupra Gaza, Ierusalimul de Est și Cisiordania, după ce liderii palestinieni au convenit în mod oficial să respecte principiile fondatoare ale curții în 2015, scrie CNN.
+
+Luna trecută, când au apărut rapoarte conform cărora procurorul-șef al CPI ia în considerare acest curs de acțiune, Netanyahu a spus că „orice mandat de arestare pentru oficiali militari și ai guvernului israelian înalt „ar fi un scandal de proporții istorice”. „Israelul are un sistem juridic independent, care investighează riguros toate încălcările legii”, declara Netanyahu. Ministrul israelian al cabinetului de război, Benny Gantz, a denunțat luni cererea Curții și a catalogat-o drept „o fărădelege”. „A face o paralelă între liderii unei țări democratice hotărâte să se apere de o teroare josnică și liderii unei organizații teroriste însetate de sânge este o distorsiune profundă a justiției și un faliment moral flagrant”, a declarat Gantz.Israelul și Statele Unite nu sunt membre ale Curții Penale Internaționale. Cu toate acestea, Curtea susține că are jurisdicție asupra Gaza, Ierusalimul de Est și Cisiordania, după ce liderii palestinieni au convenit în mod oficial să respecte principiile fondatoare ale curții în 2015, scrie CNN.
+
+Israelul și Statele Unite nu sunt membre ale Curții Penale Internaționale. Cu toate acestea, Curtea susține că are jurisdicție asupra Gaza, Ierusalimul de Est și Cisiordania, după ce liderii palestinieni au convenit în mod oficial să respecte principiile fondatoare ale curții în 2015, scrie CNN.

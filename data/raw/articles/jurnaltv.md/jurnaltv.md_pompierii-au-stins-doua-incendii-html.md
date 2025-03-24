@@ -1,0 +1,21 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240529193451/www.jurnaltv.md/news/6941fdb95ad53977/pompierii-au-stins-doua-incendii.html?utm_source=RSS&utm_medium=RSS&utm_campaign=RSS"
+url: "http://www.jurnaltv.md/news/6941fdb95ad53977/pompierii-au-stins-doua-incendii.html"
+language: ro
+title: "Pompierii au stins două incendii"
+publication: '[[JurnalTV]]'
+published: '2024-05-20'
+section: novosti
+description: "Polițiștii au găsit într-o clădire părăsită din Chișinău o geantă plină cu droguri. Costul stupefiantelor pe piața neagră se ridică la 200 de mii de lei. Au fost reținuți trei suspecți. Urmează detalii și alte știri pe scurt."
+---
+
+# Pompierii au stins două incendii
+
+Polițiștii au găsit într-o clădire părăsită din Chișinău o geantă plină cu droguri. Costul stupefiantelor pe piața neagră se ridică la 200 de mii de lei. Au fost reținuți trei suspecți. Urmează detalii și alte știri pe scurt.
+
+Șase persoane, între care trei membri ai Comisiei medicale a șoferilor din Ialoveni, sunt cercetate pentru corupție. Potrivit anchetei, cei vizați primeau babani în schimbul facilitării eliberării adeverinței medicale pentru obținerea permisului de conducere, fără examenul medical, pe care să-l susțină candidații. În perioada martie-mai 2024, au fost cercetate peste 40 de cazuri de primire a mijloacelor financiare, care varia de la 300 la 800 de lei. Luni, 20 mai, ofițerii CNA au efectuat 12 percheziții, în cadrul cărora a fost reținută pentru 72 de ore secretara Comisiei medicale. Alte cinci persoane cu statut de bănuit vor fi cercetate în stare de libertate. Urmărirea penală continuă sub conducerea Procuraturii Chișinău.În noaptea de duminică spre luni, 20 mai, pompierii din Chișinău au fost alertați pentru a stinge două incendii. Trei echipaje au fost trimise pe strada Ismail, unde ardea o remorcă cu bunuri materiale și cinci generatoare pe benzină. Al doilea incendiu a fost pe strada Nicolae Milescu Spătarul, unde focul a distrus complet o remorcă încărcată cu echipament scenic. Cauzele incendiilor sunt în curs de investigare.Polițiștii din Chișinău au depistat într-o clădire părăsită din sectorul Centru o geantă cu 181 de pachețele de droguri, similare hașișului. Oamenii legii au identificat și reținut trei bărbați, de 20, 23 și, respectiv, 25 de ani, care au declarat că sunt curieri pentru un magazin online pe Telegram și urmau să ascundă pachețelele. Drogurile au fost trimise la Centrul tehnico-criminalistic al Inspectoratului General de Poliție. Suspecții riscă până la 15 ani de închisoare. Investigațiile continuă.
+
+În noaptea de duminică spre luni, 20 mai, pompierii din Chișinău au fost alertați pentru a stinge două incendii. Trei echipaje au fost trimise pe strada Ismail, unde ardea o remorcă cu bunuri materiale și cinci generatoare pe benzină. Al doilea incendiu a fost pe strada Nicolae Milescu Spătarul, unde focul a distrus complet o remorcă încărcată cu echipament scenic. Cauzele incendiilor sunt în curs de investigare.Polițiștii din Chișinău au depistat într-o clădire părăsită din sectorul Centru o geantă cu 181 de pachețele de droguri, similare hașișului. Oamenii legii au identificat și reținut trei bărbați, de 20, 23 și, respectiv, 25 de ani, care au declarat că sunt curieri pentru un magazin online pe Telegram și urmau să ascundă pachețelele. Drogurile au fost trimise la Centrul tehnico-criminalistic al Inspectoratului General de Poliție. Suspecții riscă până la 15 ani de închisoare. Investigațiile continuă.
+
+Polițiștii din Chișinău au depistat într-o clădire părăsită din sectorul Centru o geantă cu 181 de pachețele de droguri, similare hașișului. Oamenii legii au identificat și reținut trei bărbați, de 20, 23 și, respectiv, 25 de ani, care au declarat că sunt curieri pentru un magazin online pe Telegram și urmau să ascundă pachețelele. Drogurile au fost trimise la Centrul tehnico-criminalistic al Inspectoratului General de Poliție. Suspecții riscă până la 15 ani de închisoare. Investigațiile continuă.

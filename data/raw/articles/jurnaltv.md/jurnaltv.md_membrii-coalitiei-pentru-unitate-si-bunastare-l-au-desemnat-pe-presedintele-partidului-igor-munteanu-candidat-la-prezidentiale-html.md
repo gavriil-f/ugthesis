@@ -1,0 +1,21 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240820081204/www.jurnaltv.md/news/9b93a3f366d8aa0e/membrii-coalitiei-pentru-unitate-si-bunastare-l-au-desemnat-pe-presedintele-partidului-igor-munteanu-candidat-la-prezidentiale.html"
+url: "https://www.jurnaltv.md/news/9b93a3f366d8aa0e/membrii-coalitiei-pentru-unitate-si-bunastare-l-au-desemnat-pe-presedintele-partidului-igor-munteanu-candidat-la-prezidentiale.html"
+language: ro
+title: "Membrii Coaliției pentru Unitate și Bunăstare l-au desemnat pe președintele partidului, Igor Munteanu, candidat la prezidențiale"
+publication: '[[JurnalTV]]'
+published: '2024-08-12'
+section: novosti
+description: "Membrii partidului „Coaliția pentru Unitate și Bunăstare” l-au desemnat pe președintele formațiunii, Igor Munteanu, candidat pentru alegerile prezidențiale din această toamnă. Anunțul a fost făcut în cadrul unei conferințe de presă. Se întâmplă la câteva zile după ce CUB a anunțat că se desprinde de blocul „Împreună”, care l-a desemnat la scrutinul prezidențial pe istoricul Octavian Țâcu, a cărui candidatură nu a fost susținută de CUB."
+---
+
+# Membrii Coaliției pentru Unitate și Bunăstare l-au desemnat pe președintele partidului, Igor Munteanu, candidat la prezidențiale
+
+Membrii partidului „Coaliția pentru Unitate și Bunăstare” l-au desemnat pe președintele formațiunii, Igor Munteanu, candidat pentru alegerile prezidențiale din această toamnă. Anunțul a fost făcut în cadrul unei conferințe de presă. Se întâmplă la câteva zile după ce CUB a anunțat că se desprinde de blocul „Împreună”, care l-a desemnat la scrutinul prezidențial pe istoricul Octavian Țâcu, a cărui candidatură nu a fost susținută de CUB.
+
+IGOR MUNTEANU, președinte CUB:*"Mi-am asumat o sarcină complicată, dar vitală pentru dezideratele programului liberal și suntem un partid liberal în Republica Moldova. Iar sarcina mea este să ofer un exemplu de candidat, care să fie garanția omului simplu contra imposturii, contra inamicilor, statului de drept și a profitorilor."*
+
+Igor Munteanu a precizat că ulterior își va prezenta și programul electoral. Octavian Țâcu a precizat în ziua desemnării sale în calitate de candidat pentru alegerile prezidențiale că în cadrul blocului „Împreună” au mai fost discutate două nume - cele ale lui Ștefan Gligor și Igor Munteanu. După un proces de votare în două tururi, reprezentanții blocului l-au desemnat candidat pe Octavian Țâcu.Până acum și-au anunțat intenția de a candida pentru funcția de președinte actuala șefă a statului, Maia Sandu, liderul PLDM, Vlad Filat, liderul Partidului Consolidării și Dezvoltării Moldovei, Ion Chicu, fostul ministru de Externe, Tudor Ulianovschi, fostul ministru de Interne, Andrei Năstase, liderul formațiunii „Partidul nostru”, Renato Usatîi, fostul procuror general Alexandr Stoianoglo, fostul bașcan Irina Vlah, jurnalista Natalia Morari, fostul premier Vasile Tarlev, fostul procuror anticorupție Victoria Furtună, fostul ministru al Apărării, Valeriu Pleșca, deputatul Vasile Bolea din partea blocului „Victorie-Pobeda”, vicepreședintele Partidului Alianța Liberalilor și Democraților pentru Europa, Ștefan Savițchi, profesorul universitar Alexandru Arseni și istoricul Octavian Țâcu. Alegerile prezidențiale vor avea loc pe 20 octombrie.
+
+Până acum și-au anunțat intenția de a candida pentru funcția de președinte actuala șefă a statului, Maia Sandu, liderul PLDM, Vlad Filat, liderul Partidului Consolidării și Dezvoltării Moldovei, Ion Chicu, fostul ministru de Externe, Tudor Ulianovschi, fostul ministru de Interne, Andrei Năstase, liderul formațiunii „Partidul nostru”, Renato Usatîi, fostul procuror general Alexandr Stoianoglo, fostul bașcan Irina Vlah, jurnalista Natalia Morari, fostul premier Vasile Tarlev, fostul procuror anticorupție Victoria Furtună, fostul ministru al Apărării, Valeriu Pleșca, deputatul Vasile Bolea din partea blocului „Victorie-Pobeda”, vicepreședintele Partidului Alianța Liberalilor și Democraților pentru Europa, Ștefan Savițchi, profesorul universitar Alexandru Arseni și istoricul Octavian Țâcu. Alegerile prezidențiale vor avea loc pe 20 octombrie.

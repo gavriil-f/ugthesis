@@ -1,0 +1,49 @@
+---
+site: "jurnaltv.md"
+archive: "https://web.archive.org/web/20240621101724/www.jurnaltv.md/news/f49e3b2f86538b43/retrospectiva-celor-mai-grave-accidente.html"
+url: "http://www.jurnaltv.md/news/f49e3b2f86538b43/retrospectiva-celor-mai-grave-accidente.html"
+language: ro
+title: "Retrospectiva celor mai grave accidente"
+publication: '[[JurnalTV]]'
+published: '2024-01-03'
+section: novosti
+description: "Peste 180 de oameni și-au pierdut viața în accidente rutiere, pe parcursul anului trecut. Alte peste două mii au fost traumatizate. O singură clipă de neatenție a fost fatală pentru un copil, pentru un tată, pentru o mamă. Din aceiași cauză, sute de oameni s-au ales cu sechele pentru toată viața. Potrivit Inspectoratului General al Poliției, până acum au fost înregistrate peste 1800 de accidente rutiere, în toate localitățile. Astăzi, vă prezentăm retrospectiva celor care au rămas adânc în memoria colectivă."
+---
+
+# Retrospectiva celor mai grave accidente
+
+Peste 180 de oameni și-au pierdut viața în accidente rutiere, pe parcursul anului trecut. Alte peste două mii au fost traumatizate. O singură clipă de neatenție a fost fatală pentru un copil, pentru un tată, pentru o mamă. Din aceiași cauză, sute de oameni s-au ales cu sechele pentru toată viața. Potrivit Inspectoratului General al Poliției, până acum au fost înregistrate peste 1800 de accidente rutiere, în toate localitățile. Astăzi, vă prezentăm retrospectiva celor care au rămas adânc în memoria colectivă.
+
+Viața ei a luat o altă întorsătură. Vorbim despre Marcela Paladi, victima accidentului de pe viaduct care s-a produs în noaptea de 5 spre 6 februarie. Marcela Paladi era pasager într-o mașină implicată într-un alt accident rutier. Tânăra intenționa să pună triunghiul reflectorizant, când a fost lovită în plin de o mașină. În acea noapte, medicii i-au amputat picioarele. Marcela Paladi a urmat o perioadă lungă de recuperare. Mai întâi a fost internată trei săptămâni la Institutul de Medicină Urgentă, apoi a ajuns în Germania, unde și-a pus proteze.
+
+La începutul lunii mai a anului curent, Gheorghe Begu, șoferul care a lăsat-o fără picioare pe Marcela Paladi a fost condamnat la trei ani și șase luni de închisoare. Instanța a mai dispus și anularea dreptului acestuia de a conduce mijloace de transport. La fel, Gheorghe Begu a fost obligat să plătească două milioane de lei părții vătămate.
+
+Un alt accident care a zguduit opinia publică s-a produs la aproape două săptămâni distanță.
+
+Pe 21 februarie, în apropierea localității Stăuceni a avut loc un accident rutier în urma căruia doi bicicliști minori au ajuns la spital în stare gravă. Ulterior, Valerian Răilean, unul dintre cei doi copii, a decedat. Șoferul care a spulberat pe șosea doi bicicliști minori, la Stăuceni, provocând decesul unuia dintre ei, a fost condamnat la șase ani de închisoare cu executare în penitenciar de tip deschis.
+
+ALEXANDRU COȘCODAN, tatăl băiatului decedat: "*Șase ani pentru o viață de copil, care avea aspirații, voia să devină campion mondial. S-a antrenat ani la rând."*
+
+Decizia a fost pronunțată de magistrații Judecătoriei Chișinău, sediul Buiucani. Șoferul, Fiodor Doicov, a fost privat de dreptul de a mai conduce mijloace de transport.
+
+Pe 24 martie, o copilă de 12 ani a fost lovită mortal pe trecerea de pietoni, de un troleibuz, pe bulevardul Mircea cel Bătrân din sectorul Ciocana.
+
+OLGA CULAI, mama minorei decedate:*"În numele fiicei mele vreau să spun că ea ar dori să fie ultimul copil, care moare pe o trecere de pietoni."*
+
+Șoferița de troleibuz a fost condamnată la patru ani de închisoare, dintre care doi - cu suspendare.
+
+O altă tragedie s-a produs pe 24 iulie. Cinci persoane au ajuns la spital cu traumatisme, iar pe 6 august, Doinița Prodan, de 29 de ani, o tânără mamă a două fete, a decedat în urma rănilor provocate. Tatăl Doiniței a povestit mai târziu presei că în seara tragediei, fiica acestuia își marca ziua de naștere și a venit în vizită la ei acasă.
+
+IGOR PRODAN, tatăl Doiniței Prodan:*"Era ziua ei de naștere și a fost la noi acasă cu un buchet de flori pentru mama ei. Nu era caracteristic pentru ea. De obicei, ne întâlnim a doua zi. Mama ei a spus să aștepte că i-a pregătit un cadou la care ea a spus că se grăbește căci a decis să meargă cu prietenele într-un local să serbeze, așa pur simbolic. Peste jumătate de oră după ce a plecat ne-a sunat un tânăr și ne-a spus că este un accident."*
+
+Dragomir Popovici, șoferul care a provocat accidentul rutier, soldat cu decesul tinerei Doinița Prodan, a fost condamnat pe 29 noiembrie la șase ani și zece luni de închisoare.
+
+În memoria colectivă rămâne și gravul accident provocat de o polițistă beată, în noaptea de 28 spre 29 august, în orașul Sângera. O femeie de 30 de ani a decedat pe loc. Valentina Ursu, cea care a fost lovită mortal, locuia în comuna Băcioi, însă a mers la Sângera, la rude. În momentul accidentului, femeia era însoțită de fiica și sora ei, de șase și, respectiv, 17 ani. Jurnal TV a vorbit în luna septembrie cu mama acesteia, Svetlana Ursu, care ne-a povestit cum s-a schimbat totul după pierderea fiicei mai mari.
+
+SVETLANA URSU, mama victimelor accidentului din orașul Sângera:*"De la fata mai mare nepoțica a rămas singurică și ea des mă întreabă: Bunica, unde e mama? Ce să-i spun? Îi zic că mama e sus la cer, căutam așa un cuvânt mai fin."*
+
+La volan se afla o tânără de 22 de ani, angajată a Inspectoratului Național de Securitate Publică. Aceasta se afla în afara orelor de serviciu. Femeia era în stare de ebrietate. Aparatul Drager a arătat o concentrație de alcool de 0,51 mg/l în aerul expirat.Patru persoane au murit în urma unui cumplit accident, produs în satul Bahmut, raionul Călărași, pe 20 octombrie. Un automobil condus de șeful Procuraturii raionului Ungheni, Dumitru Triboi, a lovit violent o căruță. A murit un copil de doar trei luni, părinții și bunica acestuia. Bunicul și a doua nepoată a acestuia, de patru ani, au fost internați în stare gravă. Procurorul Dumitru Triboi rămâne cercetat în stare de arest preventiv pentru omor din imprudență. Dacă va fi găsit vinovat, el riscă până la zece ani de închisoare.Alte două persoane au decedat în urma unui accident produs pe 21 octombrie la intersecția bulevardului Dacia din Chișinău cu drumul de ieșire de pe teritoriul Aeroportului Internațional Chișinău. În accident a fost implicată o mașină de patrulare a Inspectoratului Național de Securitate Publică și o motocicletă. În aceeași zi, pe paginile gestionate de Poliție au fost publicate imagini video cu puternic impact emoțional, în care este surprins accidentul. Internauții au pus la îndoială coloana sonoră folosită în video, acuzând Poliția că ar fi trucat intenționat imaginile video. Pe 23 octombrie, șeful IGP, Viorel Cernăuțeanu, a declarat presei că imaginile au fost puse la dispoziție de administrația Aeroportului, acestea fiind filmate de pe monitor cu un telefon mobil. Șeful IGP a anunțat atunci că pe acest caz a fost inițiată inclusiv o anchetă de serviciu, care va stabili autenticitatea coloanei sonore folosită în video. Ofițerul este cercetat penal și riscă până la zece ani de închisoare.
+
+Patru persoane au murit în urma unui cumplit accident, produs în satul Bahmut, raionul Călărași, pe 20 octombrie. Un automobil condus de șeful Procuraturii raionului Ungheni, Dumitru Triboi, a lovit violent o căruță. A murit un copil de doar trei luni, părinții și bunica acestuia. Bunicul și a doua nepoată a acestuia, de patru ani, au fost internați în stare gravă. Procurorul Dumitru Triboi rămâne cercetat în stare de arest preventiv pentru omor din imprudență. Dacă va fi găsit vinovat, el riscă până la zece ani de închisoare.Alte două persoane au decedat în urma unui accident produs pe 21 octombrie la intersecția bulevardului Dacia din Chișinău cu drumul de ieșire de pe teritoriul Aeroportului Internațional Chișinău. În accident a fost implicată o mașină de patrulare a Inspectoratului Național de Securitate Publică și o motocicletă. În aceeași zi, pe paginile gestionate de Poliție au fost publicate imagini video cu puternic impact emoțional, în care este surprins accidentul. Internauții au pus la îndoială coloana sonoră folosită în video, acuzând Poliția că ar fi trucat intenționat imaginile video. Pe 23 octombrie, șeful IGP, Viorel Cernăuțeanu, a declarat presei că imaginile au fost puse la dispoziție de administrația Aeroportului, acestea fiind filmate de pe monitor cu un telefon mobil. Șeful IGP a anunțat atunci că pe acest caz a fost inițiată inclusiv o anchetă de serviciu, care va stabili autenticitatea coloanei sonore folosită în video. Ofițerul este cercetat penal și riscă până la zece ani de închisoare.
+
+Alte două persoane au decedat în urma unui accident produs pe 21 octombrie la intersecția bulevardului Dacia din Chișinău cu drumul de ieșire de pe teritoriul Aeroportului Internațional Chișinău. În accident a fost implicată o mașină de patrulare a Inspectoratului Național de Securitate Publică și o motocicletă. În aceeași zi, pe paginile gestionate de Poliție au fost publicate imagini video cu puternic impact emoțional, în care este surprins accidentul. Internauții au pus la îndoială coloana sonoră folosită în video, acuzând Poliția că ar fi trucat intenționat imaginile video. Pe 23 octombrie, șeful IGP, Viorel Cernăuțeanu, a declarat presei că imaginile au fost puse la dispoziție de administrația Aeroportului, acestea fiind filmate de pe monitor cu un telefon mobil. Șeful IGP a anunțat atunci că pe acest caz a fost inițiată inclusiv o anchetă de serviciu, care va stabili autenticitatea coloanei sonore folosită în video. Ofițerul este cercetat penal și riscă până la zece ani de închisoare.
